@@ -1,16 +1,36 @@
 import React, { useState, useMemo, useRef, useEffect } from "react";
 
 const STARTER_DECK = [
-  { front: "le chat", back: "the cat" },
-  { front: "manger", back: "to eat" },
-  { front: "la maison", back: "the house" },
-  { front: "aujourd'hui", back: "today" },
-  { front: "parler", back: "to speak" },
-  { front: "beaucoup", back: "a lot / many" },
-  { front: "le travail", back: "work / job" },
-  { front: "comprendre", back: "to understand" },
-  { front: "toujours", back: "always" },
-  { front: "l'ami / l'amie", back: "the friend" },
+  { front: "bonjour", back: "hello / good morning" },
+  { front: "bonsoir", back: "good evening" },
+  { front: "bonne nuit", back: "good night" },
+  { front: "salut", back: "hi (informal)" },
+  { front: "enchanté(e)", back: "nice to meet you" },
+  { front: "l'étudiant(e)", back: "the student" },
+  { front: "le copain / la copine", back: "the friend / mate" },
+  { front: "l'ami(e)", back: "the friend" },
+  { front: "l'ordinateur", back: "the computer" },
+  { front: "la salle de classe", back: "the classroom" },
+  { front: "le livre", back: "the book" },
+  { front: "la table", back: "the table" },
+  { front: "le stylo", back: "the pen" },
+  { front: "la gomme", back: "the eraser" },
+  { front: "le marché", back: "the market" },
+  { front: "une assiette", back: "a plate" },
+  { front: "le riz", back: "rice" },
+  { front: "les oranges", back: "the oranges" },
+  { front: "les mangues", back: "the mangoes" },
+  { front: "le gâteau", back: "the cake" },
+  { front: "le pâtissier", back: "the pastry chef" },
+  { front: "l'hôpital", back: "the hospital" },
+  { front: "l'entreprise", back: "the company" },
+  { front: "l'ingénieur(e)", back: "the engineer" },
+  { front: "le professeur", back: "the teacher" },
+  { front: "la vendeuse", back: "the saleswoman" },
+  { front: "le panier", back: "the basket" },
+  { front: "la nationalité", back: "the nationality" },
+  { front: "les vacances", back: "the holidays / vacation" },
+  { front: "l'emploi du temps", back: "the timetable" },
 ];
 
 const STORAGE_KEY = "french-flashcards-deck";
@@ -51,12 +71,25 @@ export default function FrenchFlashcards() {
   }, [cards]);
   const [currentId, setCurrentId] = useState(null);
   const [flipped, setFlipped] = useState(false);
+  const [instant, setInstant] = useState(false);
   const [reviewed, setReviewed] = useState(0);
   const [correct, setCorrect] = useState(0);
   const [showManage, setShowManage] = useState(false);
   const [newFront, setNewFront] = useState("");
   const [newBack, setNewBack] = useState("");
   const lastIdRef = useRef(null);
+  const rafRef = useRef(null);
+
+  useEffect(() => {
+    if (!instant) return;
+    const raf1 = requestAnimationFrame(() => {
+      rafRef.current = requestAnimationFrame(() => setInstant(false));
+    });
+    return () => {
+      cancelAnimationFrame(raf1);
+      if (rafRef.current) cancelAnimationFrame(rafRef.current);
+    };
+  }, [instant]);
 
   const mastered = cards.filter((c) => c.box >= 4).length;
 
@@ -84,6 +117,19 @@ export default function FrenchFlashcards() {
     lastIdRef.current = id;
   }
 
+  function speak(text) {
+    try {
+      if (!("speechSynthesis" in window)) return;
+      window.speechSynthesis.cancel();
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "fr-FR";
+      utterance.rate = 0.85;
+      window.speechSynthesis.speak(utterance);
+    } catch (e) {
+      // speech synthesis unavailable, fail silently
+    }
+  }
+
   function handleFlip() {
     if (!current) return;
     setFlipped((f) => !f);
@@ -104,7 +150,7 @@ export default function FrenchFlashcards() {
       c.id === current.id ? { ...c, box: gotIt ? Math.min(c.box + 1, 4) : 1 } : c
     );
     const nextId2 = pickNext(nextPool, current.id);
-    lastIdRef.current = nextId2;
+    setInstant(true);
     setCurrentId(nextId2);
     setFlipped(false);
   }
@@ -210,6 +256,9 @@ export default function FrenchFlashcards() {
                   width: "100%",
                   height: 260,
                   transform: flipped ? "rotateY(180deg)" : "rotateY(0deg)",
+                  transition: instant
+                    ? "none"
+                    : "transform 0.45s cubic-bezier(.4,.2,.2,1)",
                 }}
               >
                 <div
@@ -227,6 +276,31 @@ export default function FrenchFlashcards() {
                     boxSizing: "border-box",
                   }}
                 >
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      speak(current.front);
+                    }}
+                    aria-label="Pronounce word"
+                    style={{
+                      position: "absolute",
+                      top: 14,
+                      right: 14,
+                      width: 34,
+                      height: 34,
+                      borderRadius: "50%",
+                      border: "none",
+                      background: "rgba(255,255,255,0.12)",
+                      color: chalk,
+                      cursor: "pointer",
+                      fontSize: 15,
+                      display: "flex",
+                      alignItems: "center",
+                      justifyContent: "center",
+                    }}
+                  >
+                    🔊
+                  </button>
                   <p
                     style={{
                       fontSize: 11,
