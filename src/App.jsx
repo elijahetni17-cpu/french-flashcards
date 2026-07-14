@@ -77,7 +77,20 @@ export default function FrenchFlashcards() {
   const [showManage, setShowManage] = useState(false);
   const [newFront, setNewFront] = useState("");
   const [newBack, setNewBack] = useState("");
+  const [noFrenchVoice, setNoFrenchVoice] = useState(false);
   const lastIdRef = useRef(null);
+  const voicesRef = useRef([]);
+
+  useEffect(() => {
+    if (!("speechSynthesis" in window)) return;
+    function loadVoices() {
+      voicesRef.current = window.speechSynthesis.getVoices();
+    }
+    loadVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+    return () =>
+      window.speechSynthesis.removeEventListener("voiceschanged", loadVoices);
+  }, []);
   const rafRef = useRef(null);
 
   useEffect(() => {
@@ -124,6 +137,22 @@ export default function FrenchFlashcards() {
       const utterance = new SpeechSynthesisUtterance(text);
       utterance.lang = "fr-FR";
       utterance.rate = 0.85;
+
+      const voices =
+        voicesRef.current.length > 0
+          ? voicesRef.current
+          : window.speechSynthesis.getVoices();
+      const frenchVoice =
+        voices.find((v) => v.lang && v.lang.toLowerCase() === "fr-fr") ||
+        voices.find((v) => v.lang && v.lang.toLowerCase().startsWith("fr"));
+
+      if (frenchVoice) {
+        utterance.voice = frenchVoice;
+        setNoFrenchVoice(false);
+      } else {
+        setNoFrenchVoice(true);
+      }
+
       window.speechSynthesis.speak(utterance);
     } catch (e) {
       // speech synthesis unavailable, fail silently
@@ -237,6 +266,12 @@ export default function FrenchFlashcards() {
             <span>{mastered} mastered</span>
             <span>{reviewed > 0 ? Math.round((correct / reviewed) * 100) : 0}% this session</span>
           </div>
+          {noFrenchVoice && (
+            <p style={{ fontSize: 12, color: brick, marginTop: 10, marginBottom: 0 }}>
+              No French voice found on this device — pronunciation may sound off.
+              Check your system's language/speech settings to add one.
+            </p>
+          )}
         </div>
 
         {current ? (
