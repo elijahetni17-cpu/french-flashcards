@@ -5,7 +5,14 @@ import quizBank from "../data/quiz-bank.json";
 import extraQuestions from "../data/quiz-duel-extra.json";
 import { recordQuizDuelRun } from "../lib/storage.js";
 
-const N=15; const bank=()=>[...quizBank,...extraQuestions]; const shuffle=a=>[...a].sort(()=>Math.random()-.5); const enc=ids=>ids.map(id=>id.replace(/^q/,"")).join("-"); const dec=s=>s.split("-").map(id=>`q${String(Number(id)).padStart(3,"0")}`);
+const N=15;
+const corrections={
+ q112:{options:["studieuse","studieux","studieuses","travailleur"],correctIndex:1,explanation:"Studieux is masculine plural here."},
+ q124:{options:["riiez","riez","avez ri","rirez"],correctIndex:0,explanation:"The imparfait of rire for vous is riiez."},
+ q136:{options:["au","en","à","aux"],correctIndex:0,explanation:"Ghana is masculine singular: au Ghana."}
+};
+const bank=()=>[...quizBank,...extraQuestions].map(q=>corrections[q.id]?{...q,...corrections[q.id]}:q);
+const shuffle=a=>[...a].sort(()=>Math.random()-.5);const enc=ids=>ids.map(id=>id.replace(/^q/,"")).join("-");const dec=s=>s.split("-").map(id=>`q${String(Number(id)).padStart(3,"0")}`);
 function makeSession(topicId,ids){const all=bank();const pool=ids?.length?ids.map(id=>all.find(q=>q.id===id)).filter(Boolean):shuffle(topicId?all.filter(q=>q.topicId===topicId):all).slice(0,N);return pool.map(q=>({...q,shuffledOptions:shuffle(q.options.map((text,i)=>({text,correct:i===q.correctIndex})))}));}
 
 export default function QuizDuel(){
