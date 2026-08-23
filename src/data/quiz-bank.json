@@ -1,0 +1,2267 @@
+[
+  {
+    "id": "q001",
+    "topicId": "se-presenter",
+    "prompt": "Qu'est-ce que tu fais dans la vie ?",
+    "options": [
+      "Je suis ghanéen",
+      "Je suis en première année à UMaT",
+      "J'habite à Takoradi",
+      "J'ai 20 ans"
+    ],
+    "correctIndex": 1,
+    "explanation": "This question asks about your occupation/status, so the answer about being a first-year student is correct.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q002",
+    "topicId": "se-presenter",
+    "prompt": "Où habites-tu ?",
+    "options": [
+      "J'ai 15 ans",
+      "Je m'appelle John",
+      "Je suis ghanéen",
+      "J'habite à Accra"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Où habites-tu?' asks where you live, so 'J'habite à Accra' is the only matching answer.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q003",
+    "topicId": "se-presenter",
+    "prompt": "Quel est ton état civil ? Je suis ......",
+    "options": [
+      "étudiant",
+      "célibataire",
+      "français",
+      "grand"
+    ],
+    "correctIndex": 1,
+    "explanation": "État civil (marital status) answers include célibataire, marié(e), veuf/veuve, divorcé(e).",
+    "difficulty": "easy",
+    "source": "Pattern"
+  },
+  {
+    "id": "q004",
+    "topicId": "se-presenter",
+    "prompt": "Je m'appelle Akua. ...... en 1981 à Accra.",
+    "options": [
+      "Je suis née",
+      "J'ai née",
+      "Je suis né",
+      "J'ai né"
+    ],
+    "correctIndex": 0,
+    "explanation": "Naître takes être; Akua is feminine, so 'Je suis née' agrees correctly.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q005",
+    "topicId": "se-presenter",
+    "prompt": "Le directeur de notre entreprise est ..... Il n'est pas marié.",
+    "options": [
+      "célibataire",
+      "veuve",
+      "séparé",
+      "mariée"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Il n'est pas marié' (he is not married) confirms célibataire (single); veuve/mariée are feminine forms so incorrect for 'il'.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q006",
+    "topicId": "se-presenter",
+    "prompt": "Quelle est votre profession ?",
+    "options": [
+      "J'habite à Tarkwa",
+      "Je suis ingénieur",
+      "J'ai vingt ans",
+      "Je m'appelle Kofi"
+    ],
+    "correctIndex": 1,
+    "explanation": "Profession refers to your job, so 'Je suis ingénieur' is correct.",
+    "difficulty": "easy",
+    "source": "Pattern"
+  },
+  {
+    "id": "q007",
+    "topicId": "se-presenter",
+    "prompt": "Comment vous appelez-vous ?",
+    "options": [
+      "J'ai 22 ans",
+      "Je m'appelle Francis Yankey",
+      "Je suis célibataire",
+      "J'habite à Essikado"
+    ],
+    "correctIndex": 1,
+    "explanation": "This question asks for your name specifically.",
+    "difficulty": "easy",
+    "source": "Pattern"
+  },
+  {
+    "id": "q008",
+    "topicId": "se-presenter",
+    "prompt": "Quelle est ta nationalité ?",
+    "options": [
+      "Étudiant",
+      "Ingénieur chimique",
+      "Tchadien",
+      "France"
+    ],
+    "correctIndex": 2,
+    "explanation": "Nationality answers are adjectives of origin like 'Tchadien' (Chadian).",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q009",
+    "topicId": "se-presenter",
+    "prompt": "Peux-tu me donner ton adresse e-mail ?",
+    "options": [
+      "rouge@soleil.fr",
+      "BP 0120",
+      "France",
+      "Rue Victor Hugo"
+    ],
+    "correctIndex": 0,
+    "explanation": "An email address has the format text@domain, matching 'rouge@soleil.fr'.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q010",
+    "topicId": "se-presenter",
+    "prompt": "Quelles langues parles-tu ?",
+    "options": [
+      "La pizza et du coca",
+      "19 ans",
+      "Français et anglais",
+      "Rue Victor Hugo"
+    ],
+    "correctIndex": 2,
+    "explanation": "Languages spoken should be an answer naming languages, like 'Français et anglais'.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q011",
+    "topicId": "se-presenter",
+    "prompt": "Quel est ton nom de famille ?",
+    "options": [
+      "Bonjour",
+      "Enseignant",
+      "Eley",
+      "14 juillet"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Nom de famille' means surname, so a proper name like 'Eley' fits.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q012",
+    "topicId": "se-presenter",
+    "prompt": "Avec qui habites-tu ?",
+    "options": [
+      "Chez Absa",
+      "À Marseille",
+      "Avec deux frères",
+      "Chez Gon"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Avec qui' asks WITH WHOM, so 'Avec deux frères' (with two brothers) is correct; 'chez' answers WHERE.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q013",
+    "topicId": "heure",
+    "prompt": "Il est midi et quart. C'est-à-dire qu'il est ………………",
+    "options": [
+      "12h15",
+      "12h45",
+      "11h45",
+      "11h15"
+    ],
+    "correctIndex": 0,
+    "explanation": "'et quart' means add 15 minutes: midi (12h00) + 15 min = 12h15.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q014",
+    "topicId": "heure",
+    "prompt": "Il est sept heures moins vingt. Cela veut dire qu'il est …………",
+    "options": [
+      "7h20",
+      "7h40",
+      "6h40",
+      "6h20"
+    ],
+    "correctIndex": 2,
+    "explanation": "'moins vingt' means subtract 20 minutes from 7h: 7h00 − 20min = 6h40.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q015",
+    "topicId": "heure",
+    "prompt": "Les ingénieurs arriveront vers vingt-trois heures moins le quart. Ils arriveront à ……………………",
+    "options": [
+      "11h00",
+      "10h45",
+      "11h15",
+      "10h15"
+    ],
+    "correctIndex": 1,
+    "explanation": "23h moins le quart = 23h00 − 15min = 22h45, expressed here as 10h45 PM.",
+    "difficulty": "hard",
+    "source": "Exam Aug 2021 / Aug 2024"
+  },
+  {
+    "id": "q016",
+    "topicId": "heure",
+    "prompt": "Il est trois heures de l'après-midi. C'est-à-dire, il est …………………",
+    "options": [
+      "15h",
+      "13h",
+      "16h",
+      "18h"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 PM in 24-hour format is 15h.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q017",
+    "topicId": "heure",
+    "prompt": "Nous commençons les cours à UMaT à 6h00. Cela veut dire qu'on commence les cours à……..",
+    "options": [
+      "six heures et quart",
+      "six heures moins le quart",
+      "six heures et demie",
+      "six heures juste"
+    ],
+    "correctIndex": 3,
+    "explanation": "6h00 exactly is 'six heures juste' (exactly six o'clock).",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q018",
+    "topicId": "heure",
+    "prompt": "Le Chef de département a une réunion à quinze heures moins dix. C'est-à-dire que la réunion tiendra à ……………",
+    "options": [
+      "13h10",
+      "13h50",
+      "14h50",
+      "14h10"
+    ],
+    "correctIndex": 2,
+    "explanation": "15h moins dix = 15h00 − 10min = 14h50.",
+    "difficulty": "hard",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q019",
+    "topicId": "heure",
+    "prompt": "Il est vingt heures quarante-cinq.",
+    "options": [
+      "20h35",
+      "20h25",
+      "20h45",
+      "20h55"
+    ],
+    "correctIndex": 2,
+    "explanation": "'vingt heures quarante-cinq' is read directly as 20h45.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q020",
+    "topicId": "heure",
+    "prompt": "Il est onze heures et quart.",
+    "options": [
+      "11h20",
+      "11h45",
+      "11h15",
+      "11h25"
+    ],
+    "correctIndex": 2,
+    "explanation": "'et quart' adds 15 minutes: 11h00 + 15min = 11h15.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q021",
+    "topicId": "heure",
+    "prompt": "Il est treize heures moins le quart.",
+    "options": [
+      "01h15",
+      "10h45",
+      "01h45",
+      "12h45"
+    ],
+    "correctIndex": 3,
+    "explanation": "13h moins le quart = 13h00 − 15min = 12h45.",
+    "difficulty": "medium",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q022",
+    "topicId": "heure",
+    "prompt": "Il est trois heures et demie.",
+    "options": [
+      "13h30",
+      "03h30",
+      "03h15",
+      "13h45"
+    ],
+    "correctIndex": 1,
+    "explanation": "'et demie' means add 30 minutes: 3h00 + 30min = 3h30 (03h30).",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q023",
+    "topicId": "heure",
+    "prompt": "L'examen aura lieu à 15h30. Cela veut dire qu'on aura l'examen à ………………",
+    "options": [
+      "trois heures et demie du matin",
+      "trois heures et demie de l'après-midi",
+      "trois heures et quart du matin",
+      "trois heures moins le quart du soir"
+    ],
+    "correctIndex": 1,
+    "explanation": "15h30 = 3:30 in the afternoon (de l'après-midi).",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q024",
+    "topicId": "heure",
+    "prompt": "Il y a …………… dans une journée.",
+    "options": [
+      "douze heures",
+      "vingt heures",
+      "vingt-quatre heures",
+      "dix-huit heures"
+    ],
+    "correctIndex": 2,
+    "explanation": "There are 24 hours in a day.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q025",
+    "topicId": "heure",
+    "prompt": "Les étudiants se couchent à vingt-deux heures et quart. Autrement dit, ils se couchent à………",
+    "options": [
+      "23h15",
+      "22h15",
+      "22h45",
+      "21h45"
+    ],
+    "correctIndex": 1,
+    "explanation": "22h + 15min ('et quart') = 22h15.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q026",
+    "topicId": "heure",
+    "prompt": "Nous devons allumer la machine pour le test à 17h50.",
+    "options": [
+      "dix-sept heures cinquante-cinq",
+      "cinq heures moins dix",
+      "dix-sept heures cinquante",
+      "dix-sept heures cinq"
+    ],
+    "correctIndex": 2,
+    "explanation": "17h50 is read literally as 'dix-sept heures cinquante'.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q027",
+    "topicId": "adjectifs",
+    "prompt": "Ce jeune garçon est vraiment …………………….. Il est étudiant à UMaT.",
+    "options": [
+      "bel",
+      "beau",
+      "belle",
+      "baux"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Garçon' is masculine singular; before a consonant-starting noun 'beau' is used (bel is only before vowel sounds).",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q028",
+    "topicId": "adjectifs",
+    "prompt": "J'aime les filles qui sont …………………..",
+    "options": [
+      "petit",
+      "petits",
+      "petite",
+      "petites"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Filles' is feminine plural, so the adjective must be 'petites'.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q029",
+    "topicId": "adjectifs",
+    "prompt": "Mary est sentimentale. Michael et Juliet sont …………………………",
+    "options": [
+      "sentimentaux",
+      "sentimentals",
+      "sentimentale",
+      "sentimentales"
+    ],
+    "correctIndex": 0,
+    "explanation": "When a group mixes masculine and feminine (Michael + Juliet), French defaults to the masculine plural form: sentimentaux.",
+    "difficulty": "hard",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q030",
+    "topicId": "adjectifs",
+    "prompt": "Charlot est peureux. Et ses sœurs ? - Elles sont …………………………………",
+    "options": [
+      "peureux",
+      "peureuse",
+      "peureuses",
+      "peureuxs"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Sœurs' is feminine plural; -eux becomes -euses.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q031",
+    "topicId": "adjectifs",
+    "prompt": "Le plat est léger. Et les assiettes ? - Elles sont aussi très ……………………………",
+    "options": [
+      "légère",
+      "légers",
+      "léger",
+      "légères"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Assiettes' is feminine plural, so 'légères'.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q032",
+    "topicId": "adjectifs",
+    "prompt": "Mademoiselle Abigail Ofosu-Anim est très ……………………………….",
+    "options": [
+      "souriante",
+      "souriantes",
+      "souriant",
+      "souriants"
+    ],
+    "correctIndex": 0,
+    "explanation": "A single female subject takes the feminine singular form.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q033",
+    "topicId": "adjectifs",
+    "prompt": "J'habite dans un ……………………………….. appartement.",
+    "options": [
+      "petite",
+      "petit",
+      "petits",
+      "petites"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Appartement' is masculine singular.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q034",
+    "topicId": "adjectifs",
+    "prompt": "Mon oncle est douanier. Ma tante est ……………………………………. (from 'douanier')",
+    "options": [
+      "douanier",
+      "douanière",
+      "douaniers",
+      "douanières"
+    ],
+    "correctIndex": 1,
+    "explanation": "-ier professions become -ière in the feminine.",
+    "difficulty": "medium",
+    "source": "Pattern"
+  },
+  {
+    "id": "q035",
+    "topicId": "adjectifs",
+    "prompt": "Nous avons vu ces enfants au campus. Elles étaient tous ………………………..",
+    "options": [
+      "heureeux",
+      "heureuses",
+      "heureuse",
+      "heureus"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Elles...tous' (feminine plural group), -eux becomes -euses.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q036",
+    "topicId": "adjectifs",
+    "prompt": "Les examens s'approchent. Les étudiantes sont maintenant ……………avec leurs études.",
+    "options": [
+      "sérieux",
+      "sérieuses",
+      "sérieuse",
+      "sérieus"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Les étudiantes' is feminine plural: sérieux → sérieuses.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024 / Aug-Sep 2025"
+  },
+  {
+    "id": "q037",
+    "topicId": "adjectifs",
+    "prompt": "La nourriture ……………….. de M. Dogbavou est banku avec la sauce au crabes",
+    "options": [
+      "favori",
+      "favorie",
+      "favorite",
+      "favorites"
+    ],
+    "correctIndex": 2,
+    "explanation": "'La nourriture' is feminine singular; favori → favorite (irregular).",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q038",
+    "topicId": "adjectifs",
+    "prompt": "Ma voiture est trop vieille. Je vais acheter une ……………………….voiture.",
+    "options": [
+      "nouveau",
+      "nouvelles",
+      "nouvel",
+      "nouvelle"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Voiture' is feminine singular, so nouveau → nouvelle.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q039",
+    "topicId": "adjectifs",
+    "prompt": "J'adore ces médecins ivoiriennes. Elles …………………. ici depuis le mois passé.",
+    "options": [
+      "sont venus",
+      "sont venues",
+      "est venue",
+      "est venu"
+    ],
+    "correctIndex": 1,
+    "explanation": "Subject is feminine plural ('elles'), venir takes être, past participle agrees: venues.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q040",
+    "topicId": "adjectifs",
+    "prompt": "Le nouveau directeur de l'entreprise est …………. La nouvelle directrice de l'école est ……….",
+    "options": [
+      "gentil / gentille",
+      "gentille / gentil",
+      "gentils / gentille",
+      "gentil / gentils"
+    ],
+    "correctIndex": 0,
+    "explanation": "Masculine 'directeur' takes 'gentil'; feminine 'directrice' takes 'gentille'.",
+    "difficulty": "easy",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q041",
+    "topicId": "adjectifs",
+    "prompt": "Yao Ming et Akolbilla sont …………… et forts. (grand)",
+    "options": [
+      "grand",
+      "grands",
+      "grande",
+      "grandes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Two males together = masculine plural: grands.",
+    "difficulty": "easy",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q042",
+    "topicId": "adjectifs",
+    "prompt": "Ngozi et Nkechi sont grandes et …………… (fort)",
+    "options": [
+      "fort",
+      "forts",
+      "forte",
+      "fortes"
+    ],
+    "correctIndex": 3,
+    "explanation": "Two females = feminine plural: fortes.",
+    "difficulty": "easy",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q043",
+    "topicId": "adjectifs",
+    "prompt": "Tsatsu Tsikata est un avocat. Georgina Woode est une ……………………",
+    "options": [
+      "avocat",
+      "avocate",
+      "avocats",
+      "avocates"
+    ],
+    "correctIndex": 1,
+    "explanation": "Feminine singular of avocat is avocate.",
+    "difficulty": "easy",
+    "source": "Lecture notes"
+  },
+  {
+    "id": "q044",
+    "topicId": "adjectifs",
+    "prompt": "Il est chanteur. Elle est ……………………",
+    "options": [
+      "chanteur",
+      "chanteuse",
+      "chanteuses",
+      "chanteurs"
+    ],
+    "correctIndex": 1,
+    "explanation": "-eur professions become -euse in the feminine: chanteur → chanteuse.",
+    "difficulty": "easy",
+    "source": "Lecture notes"
+  },
+  {
+    "id": "q045",
+    "topicId": "adjectifs",
+    "prompt": "Il est directeur. Elle est ……………………",
+    "options": [
+      "directeur",
+      "directrice",
+      "directeuse",
+      "directrices"
+    ],
+    "correctIndex": 1,
+    "explanation": "-teur professions become -trice: directeur → directrice.",
+    "difficulty": "easy",
+    "source": "Lecture notes"
+  },
+  {
+    "id": "q046",
+    "topicId": "adjectifs",
+    "prompt": "Il est mécanicien. Elle est ……………………",
+    "options": [
+      "mécanicien",
+      "mécanicienne",
+      "mécaniciens",
+      "mécaniciennes"
+    ],
+    "correctIndex": 1,
+    "explanation": "-ien professions become -ienne: mécanicien → mécanicienne.",
+    "difficulty": "easy",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q047",
+    "topicId": "adjectifs",
+    "prompt": "C'est un spectacle public. C'est une célébration ……………………",
+    "options": [
+      "public",
+      "publics",
+      "publique",
+      "publiques"
+    ],
+    "correctIndex": 2,
+    "explanation": "Adjectives ending in -c become -que in the feminine: public → publique.",
+    "difficulty": "medium",
+    "source": "Lecture notes"
+  },
+  {
+    "id": "q048",
+    "topicId": "adjectifs",
+    "prompt": "L'homme est jaloux de son ami. La femme est …………………. de son amie.",
+    "options": [
+      "jaloux",
+      "jalouse",
+      "jalouses",
+      "jalouss"
+    ],
+    "correctIndex": 1,
+    "explanation": "Irregular: jaloux → jalouse.",
+    "difficulty": "medium",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q049",
+    "topicId": "adjectifs",
+    "prompt": "Le conducteur de train est vieux. La conductrice de train est …………………",
+    "options": [
+      "vieux",
+      "vieil",
+      "vieille",
+      "vieilles"
+    ],
+    "correctIndex": 2,
+    "explanation": "Irregular: vieux → vieille.",
+    "difficulty": "medium",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q050",
+    "topicId": "adjectifs",
+    "prompt": "L'ingénieur est grand. L'ingénieure est …………………",
+    "options": [
+      "grand",
+      "grande",
+      "grands",
+      "grandes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Feminine singular agreement: grand → grande.",
+    "difficulty": "easy",
+    "source": "Lecture Week 5"
+  },
+  {
+    "id": "q051",
+    "topicId": "passe-compose",
+    "prompt": "Les vendeuses (rentrer) tôt.",
+    "options": [
+      "sont rentrée",
+      "sont rentrés",
+      "sont rentré",
+      "sont rentrées"
+    ],
+    "correctIndex": 3,
+    "explanation": "Rentrer takes être; 'les vendeuses' is feminine plural, so the participle agrees: rentrées.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q052",
+    "topicId": "passe-compose",
+    "prompt": "Les étudiants (se coucher) à 21 heures.",
+    "options": [
+      "se sont couchés",
+      "se sont couchées",
+      "se sont couché",
+      "se sont couchée"
+    ],
+    "correctIndex": 0,
+    "explanation": "Reflexive verb takes être; 'les étudiants' is masculine plural: couchés.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021 / Aug-Sep 2025"
+  },
+  {
+    "id": "q053",
+    "topicId": "passe-compose",
+    "prompt": "Hier, ……… au marché pour acheter des condiments.",
+    "options": [
+      "je suis",
+      "je serai",
+      "j'ai été",
+      "j'être"
+    ],
+    "correctIndex": 2,
+    "explanation": "A past completed action needs passé composé: 'j'ai été' (aller/être conjugated with avoir here idiomatically as 'j'ai été' = I went/was).",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q054",
+    "topicId": "passe-compose",
+    "prompt": "Ma femme et moi, nous sommes ……………. à Paris l'année dernière.",
+    "options": [
+      "allée",
+      "allées",
+      "allés",
+      "allé"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Nous' = mixed/masculine group (moi + femme, but default masculine plural agreement applies): allés.",
+    "difficulty": "hard",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q055",
+    "topicId": "passe-compose",
+    "prompt": "Martha est …………………… de sa maison à 7 heures.",
+    "options": [
+      "Sortie",
+      "sorties",
+      "sorti",
+      "sortis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sortir (meaning: to go out) takes être; 'Martha' is feminine singular: sortie.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q056",
+    "topicId": "passe-compose",
+    "prompt": "Juliet a ………………………………. un mouchoir de son sac.",
+    "options": [
+      "sortie",
+      "sorties",
+      "sorti",
+      "sortis"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sortir + direct object (a handkerchief) takes avoir, no agreement with subject: sorti.",
+    "difficulty": "hard",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q057",
+    "topicId": "passe-compose",
+    "prompt": "- Tes parents sont arrivés à Tarkwa ? - Non, mes parents …..………………………... à Tarkwa.",
+    "options": [
+      "ne sont pas arrivés",
+      "ne sont arrivés pas",
+      "ne pas sont arrivés",
+      "pas ne sont arrivés"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negation in passé composé: ne + auxiliary + pas + past participle.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q058",
+    "topicId": "passe-compose",
+    "prompt": "Hier matin, j'/ je …………………………………… rencontré Esi au marché.",
+    "options": [
+      "suis",
+      "ai",
+      "as",
+      "es"
+    ],
+    "correctIndex": 1,
+    "explanation": "Rencontrer takes avoir: j'ai rencontré.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q059",
+    "topicId": "passe-compose",
+    "prompt": "Le Togo ……………… son indépendance le 27 avril 1960.",
+    "options": [
+      "est eue",
+      "a été",
+      "est eu",
+      "a eu"
+    ],
+    "correctIndex": 3,
+    "explanation": "Avoir takes avoir as its own auxiliary in passé composé: a eu (irregular past participle 'eu').",
+    "difficulty": "hard",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q060",
+    "topicId": "passe-compose",
+    "prompt": "Les journalistes de Radio Gold ……………arrivés avec le directeur général.",
+    "options": [
+      "ont",
+      "sont",
+      "sommes",
+      "est"
+    ],
+    "correctIndex": 1,
+    "explanation": "Arriver takes être; 'les journalistes' plural subject: sont arrivés.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q061",
+    "topicId": "passe-compose",
+    "prompt": "Je m'appelle Akua. ……………………….. en 1981 à Accra. (naître)",
+    "options": [
+      "Je suis née",
+      "J'ai née",
+      "Je suis né",
+      "J'ai né"
+    ],
+    "correctIndex": 0,
+    "explanation": "Naître takes être, and Akua is feminine: je suis née.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q062",
+    "topicId": "passe-compose",
+    "prompt": "Vous …………..….. eu la chance d'être nommé directeur de la société minière.",
+    "options": [
+      "êtes",
+      "avez",
+      "avons",
+      "sommes"
+    ],
+    "correctIndex": 1,
+    "explanation": "Avoir takes avoir as auxiliary: vous avez eu.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q063",
+    "topicId": "passe-compose",
+    "prompt": "Mes frères ……………………….. le voleur et sa femme près du magasin.",
+    "options": [
+      "ont vu",
+      "ont vus",
+      "ont vues",
+      "sont vus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Voir takes avoir; with no preceding direct object before the verb, no agreement: ont vu.",
+    "difficulty": "hard",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q064",
+    "topicId": "passe-compose",
+    "prompt": "Francis ……………………………………… le voleur auprès de la voiture.",
+    "options": [
+      "a vu",
+      "a vue",
+      "ont vu",
+      "ont vus"
+    ],
+    "correctIndex": 0,
+    "explanation": "Voir takes avoir; 'Francis' singular subject, no agreement needed since 'le voleur' (object) comes after: a vu.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q065",
+    "topicId": "passe-compose",
+    "prompt": "Les étudiantes ……………………………………… à 23heures. (se coucher)",
+    "options": [
+      "se sont couchés",
+      "se sont couché",
+      "se sont couchées",
+      "se sont couchée"
+    ],
+    "correctIndex": 2,
+    "explanation": "Reflexive verb + feminine plural subject: se sont couchées.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q066",
+    "topicId": "passe-compose",
+    "prompt": "Jean a ………………………………………………….. un stylo de sa poche. (sortir)",
+    "options": [
+      "sorti",
+      "sorties",
+      "sortie",
+      "sortis"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sortir + direct object = avoir, no agreement: a sorti.",
+    "difficulty": "hard",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q067",
+    "topicId": "passe-compose",
+    "prompt": "Abena et Akua ………. leurs permis de conduire hier.",
+    "options": [
+      "sont passées",
+      "ont passé",
+      "sont passés",
+      "ont passée"
+    ],
+    "correctIndex": 1,
+    "explanation": "Passer + direct object (le permis) = avoir, no agreement: ont passé.",
+    "difficulty": "hard",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q068",
+    "topicId": "passe-compose",
+    "prompt": "- Tes tantes se sont promenées en ville de Bogoso ? - Non, mes tantes …………… en ville de Bogoso.",
+    "options": [
+      "ne se sont pas promenées",
+      "ne se sont promenées pas",
+      "ne pas se sont promenées",
+      "pas se ne sont promenées"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negation with reflexive verb in passé composé: ne + me/te/se + auxiliary + pas + participle.",
+    "difficulty": "hard",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q069",
+    "topicId": "passe-compose",
+    "prompt": "Il y a un mois, je (ne pas décider) ……… de partir en voyage.",
+    "options": [
+      "n'ai pas décidé",
+      "ne me suis pas décidé",
+      "n'ai décidé pas",
+      "ne pas décidé"
+    ],
+    "correctIndex": 0,
+    "explanation": "Décider takes avoir; negation wraps the auxiliary: n'ai pas décidé.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q070",
+    "topicId": "passe-compose",
+    "prompt": "Les ingénieurs ……… tous les tests de résistance avant la mise en service.",
+    "options": [
+      "ont terminé",
+      "a terminé",
+      "avons terminé",
+      "as terminé"
+    ],
+    "correctIndex": 0,
+    "explanation": "Terminer takes avoir; plural subject 'les ingénieurs': ont terminé.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q071",
+    "topicId": "passe-compose",
+    "prompt": "Toi et moi, nous avons les résultats de l'analyse. Nous les ……… au client la semaine dernière.",
+    "options": [
+      "avons communiqué",
+      "avez communiqué",
+      "ont communiqué",
+      "a communiqué"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Nous' subject with avoir: avons communiqué.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q072",
+    "topicId": "passe-compose",
+    "prompt": "Les mécanicien(ne)s ……… descendues du bus.",
+    "options": [
+      "sont",
+      "ont",
+      "est",
+      "a"
+    ],
+    "correctIndex": 0,
+    "explanation": "Descendre (meaning: to get off) takes être: sont descendues.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q073",
+    "topicId": "passe-compose",
+    "prompt": "Mes deux sœurs sont ……………… avocates. (devenir)",
+    "options": [
+      "devenu",
+      "devenue",
+      "devenues",
+      "devenus"
+    ],
+    "correctIndex": 2,
+    "explanation": "Devenir takes être; 'mes deux sœurs' feminine plural: devenues.",
+    "difficulty": "medium",
+    "source": "Lecture Week 4"
+  },
+  {
+    "id": "q074",
+    "topicId": "imparfait",
+    "prompt": "Quand nous étions au laboratoire, nous ……………………. souvent la qualité de l'air.",
+    "options": [
+      "mesurions",
+      "mesurons",
+      "mesuraient",
+      "mesuriez"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imparfait for a habitual past action, 'nous' form: mesurions.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q075",
+    "topicId": "imparfait",
+    "prompt": "Les étudiants en première année à UMaT ……………………… les cours de français au sérieux pendant le premier semestre. (ne pas prendre - regular)",
+    "options": [
+      "prenions",
+      "preniez",
+      "prenaient",
+      "prenait"
+    ],
+    "correctIndex": 2,
+    "explanation": "Imparfait 'ils/elles' form: prenaient.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q076",
+    "topicId": "imparfait",
+    "prompt": "Pendant le stage, je ……………….. toujours mes rapports à la main.",
+    "options": [
+      "écrivait",
+      "écrivais",
+      "écrivions",
+      "écriviez"
+    ],
+    "correctIndex": 1,
+    "explanation": "Imparfait 'je' form: écrivais.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q077",
+    "topicId": "imparfait",
+    "prompt": "Au début du projet, toi et Isaac Boham …………. dans un petit bureau près de l'usine.",
+    "options": [
+      "travaillions",
+      "travailliez",
+      "travaillaient",
+      "travaillait"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Toi et Isaac' = vous form: travailliez.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q078",
+    "topicId": "imparfait",
+    "prompt": "Avant, tu ……………………. à l'école toujours à pied.",
+    "options": [
+      "allions",
+      "alliez",
+      "allais",
+      "allait"
+    ],
+    "correctIndex": 2,
+    "explanation": "Imparfait 'tu' form: allais.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q079",
+    "topicId": "imparfait",
+    "prompt": "Comme mes parents et moi avions un congé, nous ……… restés à la maison.",
+    "options": [
+      "sommes",
+      "étions",
+      "avons",
+      "avions"
+    ],
+    "correctIndex": 1,
+    "explanation": "This describes a background/ongoing state, using imparfait of être: étions.",
+    "difficulty": "hard",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q080",
+    "topicId": "imparfait",
+    "prompt": "Les étudiants en génie géomatique …………. quand quelqu'un a crié : « Serpent ! Serpent ! »",
+    "options": [
+      "passait",
+      "passais",
+      "passaient",
+      "passions"
+    ],
+    "correctIndex": 2,
+    "explanation": "Imparfait describes the ongoing action interrupted by another event: passaient.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q081",
+    "topicId": "imparfait",
+    "prompt": "Nous, les étudiants en génie pétrolier, ……………. souvent des réunions pour discuter de problèmes techniques.",
+    "options": [
+      "organisions",
+      "organisiez",
+      "organisait",
+      "organisaient"
+    ],
+    "correctIndex": 0,
+    "explanation": "Imparfait 'nous' form: organisions.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q082",
+    "topicId": "imparfait",
+    "prompt": "L'ingénieur ……(avoir)… beaucoup d'argent quand il ……(être)… jeune.",
+    "options": [
+      "avait / était",
+      "avais / étais",
+      "avaient / étaient",
+      "aviez / étiez"
+    ],
+    "correctIndex": 0,
+    "explanation": "Both verbs are in the 'il' form: avait, était.",
+    "difficulty": "medium",
+    "source": "Lecture Week 7"
+  },
+  {
+    "id": "q083",
+    "topicId": "imparfait",
+    "prompt": "Les mécaniciens ……(aller)… réparer la voiture quand la pluie a commencé à tomber.",
+    "options": [
+      "allais",
+      "allait",
+      "allaient",
+      "alliez"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Les mécaniciens' plural subject: allaient.",
+    "difficulty": "medium",
+    "source": "Lecture Week 7"
+  },
+  {
+    "id": "q084",
+    "topicId": "imparfait",
+    "prompt": "L'homme d'affaires ne ……(savoir)… pas comment gérer son argent.",
+    "options": [
+      "savait",
+      "savais",
+      "savaient",
+      "saviez"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Il' form of savoir in imparfait: savait.",
+    "difficulty": "medium",
+    "source": "Lecture Week 7"
+  },
+  {
+    "id": "q085",
+    "topicId": "imparfait",
+    "prompt": "Le professeur de Génie Mécanique ……(venir)… de Tarkwa pour nous enseigner.",
+    "options": [
+      "venait",
+      "venais",
+      "venaient",
+      "veniez"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Il' form of venir in imparfait: venait.",
+    "difficulty": "medium",
+    "source": "Lecture Week 7"
+  },
+  {
+    "id": "q086",
+    "topicId": "imparfait",
+    "prompt": "Auparavant, la technicienne ……(travailler)… avec Anglogold Ashanti.",
+    "options": [
+      "travaillait",
+      "travaillais",
+      "travaillaient",
+      "travailliez"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Elle' form of travailler in imparfait: travaillait.",
+    "difficulty": "easy",
+    "source": "Lecture Week 7"
+  },
+  {
+    "id": "q087",
+    "topicId": "imparfait",
+    "prompt": "Ses amis, eux, ……(venir)… toujours au cours en retard.",
+    "options": [
+      "venait",
+      "venais",
+      "venaient",
+      "veniez"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Ils' (ses amis) plural form of venir in imparfait: venaient.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q088",
+    "topicId": "futur-simple",
+    "prompt": "Le mois prochain, mes parents ………. me rendre visite.",
+    "options": [
+      "viendra",
+      "viendrez",
+      "viendrons",
+      "viendront"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Mes parents' is the ils/elles form: viendront.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q089",
+    "topicId": "futur-simple",
+    "prompt": "Mon frère (arriver) demain par le train de 15 heures.",
+    "options": [
+      "arriverai",
+      "arriveras",
+      "arrivera",
+      "arriver"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Mon frère' is il form of the regular -er future: arrivera.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q090",
+    "topicId": "futur-simple",
+    "prompt": "Les enfants (danser) …………. demain avec les fées.",
+    "options": [
+      "danseront",
+      "danserai",
+      "dansera",
+      "danserez"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Les enfants' plural (ils) form: danseront.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021 / Aug-Sep 2025"
+  },
+  {
+    "id": "q091",
+    "topicId": "futur-simple",
+    "prompt": "La fille (finir) …………. son travail la semaine prochaine.",
+    "options": [
+      "finiront",
+      "finirai",
+      "finira",
+      "finirez"
+    ],
+    "correctIndex": 2,
+    "explanation": "'La fille' is il/elle form: finira.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q092",
+    "topicId": "futur-simple",
+    "prompt": "Les étudiants (savoir) …………. quand les examens vont commencer à la fin du mois.",
+    "options": [
+      "saurai",
+      "sauront",
+      "saurez",
+      "saura"
+    ],
+    "correctIndex": 1,
+    "explanation": "Savoir's irregular future stem is 'saur-'; 'les étudiants' (ils) form: sauront.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q093",
+    "topicId": "futur-simple",
+    "prompt": "Eunice (célébrer) …………. son anniversaire très bientôt.",
+    "options": [
+      "vas célébrer",
+      "vais célébrer",
+      "allons célébrer",
+      "va célébrer"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Eunice' (elle) + near future aller: va célébrer.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q094",
+    "topicId": "futur-simple",
+    "prompt": "Nous ………………………………………….. à la piscine le lendemain pour nager.",
+    "options": [
+      "irons",
+      "irez",
+      "ira",
+      "irai"
+    ],
+    "correctIndex": 0,
+    "explanation": "Aller's irregular future stem 'ir-' + nous ending: irons.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q095",
+    "topicId": "futur-simple",
+    "prompt": "Quel âge …………………………………………..-tu l'année prochaine ?",
+    "options": [
+      "auras",
+      "aurai",
+      "aura",
+      "aurez"
+    ],
+    "correctIndex": 0,
+    "explanation": "Avoir's irregular future stem 'aur-' + tu ending: auras.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q096",
+    "topicId": "futur-simple",
+    "prompt": "Je …………………………………… ingénieur après mes études universitaires.",
+    "options": [
+      "deviendriez",
+      "devenais",
+      "deviendrai",
+      "deviendra"
+    ],
+    "correctIndex": 2,
+    "explanation": "Devenir's irregular future stem 'deviendr-' + je ending: deviendrai.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q097",
+    "topicId": "futur-simple",
+    "prompt": "Nous ………………………………………………. à la piscine le lendemain pour nager. (aller)",
+    "options": [
+      "irons",
+      "ira",
+      "irez",
+      "irai"
+    ],
+    "correctIndex": 0,
+    "explanation": "Same pattern: irons for nous.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q098",
+    "topicId": "futur-simple",
+    "prompt": "Les travailleurs ………………………………………………. bien à leur faim.",
+    "options": [
+      "mangera",
+      "mangerons",
+      "mangeront",
+      "mangerai"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Les travailleurs' (ils) form of manger: mangeront.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q099",
+    "topicId": "futur-simple",
+    "prompt": "À partir de la semaine prochaine, mes amies et leurs parents ………………………… à Goldfields Ghana Limited.",
+    "options": [
+      "travailleront",
+      "travaillent",
+      "travailleront",
+      "travaillez"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Mes amies et leurs parents' = ils form: travailleront.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q100",
+    "topicId": "futur-simple",
+    "prompt": "Les examens de fin de deuxième semestre …………………. la semaine prochaine.",
+    "options": [
+      "ont commencé",
+      "commence",
+      "commenceront",
+      "commencerons"
+    ],
+    "correctIndex": 2,
+    "explanation": "Future event signalled by 'la semaine prochaine': commenceront.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q101",
+    "topicId": "futur-simple",
+    "prompt": "Demain, …………………………….. à Accra avec mes amis pour assister à une réunion.",
+    "options": [
+      "j'ai été",
+      "j'irai",
+      "je suis",
+      "je suis allé"
+    ],
+    "correctIndex": 1,
+    "explanation": "Future time marker 'demain' requires futur simple: j'irai.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q102",
+    "topicId": "futur-simple",
+    "prompt": "Mes frères ………………………. demain par le train de 15 heures.",
+    "options": [
+      "arriverons",
+      "arriveront",
+      "arriveras",
+      "arriver"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Mes frères' (ils) form of arriver: arriveront.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q103",
+    "topicId": "futur-simple",
+    "prompt": "Les ingénieurs géologues arriveront vers vingt-trois heures moins quart, c'est-à-dire à …………………………….",
+    "options": [
+      "11h54",
+      "11h15",
+      "10h45",
+      "10h15"
+    ],
+    "correctIndex": 2,
+    "explanation": "23h moins quart = 22h45 (10:45 PM).",
+    "difficulty": "hard",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q104",
+    "topicId": "transport",
+    "prompt": "Les touristes se promènent très souvent …………………… voiture.",
+    "options": [
+      "à",
+      "au",
+      "en",
+      "pour"
+    ],
+    "correctIndex": 2,
+    "explanation": "'En' is used for enclosed transport modes like voiture.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q105",
+    "topicId": "transport",
+    "prompt": "L'homme aime se promener ……………………. pied. Mais il adore voyager à cheval.",
+    "options": [
+      "à",
+      "au",
+      "par",
+      "en"
+    ],
+    "correctIndex": 0,
+    "explanation": "'à pied' (on foot) is a fixed expression.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q106",
+    "topicId": "transport",
+    "prompt": "« Je vole dans le ciel comme les oiseaux et je transporte des marchandises et les personnes. » Qui suis-je ?",
+    "options": [
+      "La voiture",
+      "Le camion",
+      "L'avion",
+      "Le train"
+    ],
+    "correctIndex": 2,
+    "explanation": "Only a plane flies in the sky like birds: l'avion.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q107",
+    "topicId": "transport",
+    "prompt": "Ces étudiantes sont riches. Elles viennent au cours ……………………voiture chaque jour.",
+    "options": [
+      "en",
+      "par",
+      "à",
+      "dans"
+    ],
+    "correctIndex": 0,
+    "explanation": "'En voiture' (by car) is the standard expression.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q108",
+    "topicId": "transport",
+    "prompt": "Pour voyager en Afrique du nord, les touristes préfèrent traverser le désert du Sahara …..…..",
+    "options": [
+      "à dos de chameau",
+      "en taxis brousse",
+      "en train",
+      "par bateau"
+    ],
+    "correctIndex": 0,
+    "explanation": "Crossing the Sahara desert is traditionally done by camel.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q109",
+    "topicId": "transport",
+    "prompt": "L'équipe de maintenance se rend à la station de pompage ......... bateau.",
+    "options": [
+      "en",
+      "par",
+      "chez",
+      "à"
+    ],
+    "correctIndex": 0,
+    "explanation": "'En bateau' (by boat) — enclosed transport uses 'en'.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q110",
+    "topicId": "transport",
+    "prompt": "Pour inspecter le site minier, le directeur se déplace ......... hélicoptère.",
+    "options": [
+      "en",
+      "chez",
+      "par",
+      "à"
+    ],
+    "correctIndex": 0,
+    "explanation": "'En hélicoptère' — you travel inside a helicopter.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q111",
+    "topicId": "transport",
+    "prompt": "L'ingénieur à Dubai se rend sur le chantier ......... chameau.",
+    "options": [
+      "en",
+      "à dos de",
+      "chez",
+      "par"
+    ],
+    "correctIndex": 1,
+    "explanation": "The fixed expression for camel travel is 'à dos de chameau'.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q112",
+    "topicId": "transport",
+    "prompt": "Ce matin, les collégiens vont en excursion ........ autobus scolaire.",
+    "options": [
+      "chez",
+      "par",
+      "en",
+      "che"
+    ],
+    "correctIndex": 2,
+    "explanation": "'En autobus' (by bus) is the standard expression.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q113",
+    "topicId": "transport",
+    "prompt": "\"Le train en provenance de Takoradi va bientôt entrer en gare.\" Cette annonce veut dire que ce train …....................",
+    "options": [
+      "passe par Takoradi",
+      "va à Takoradi",
+      "quitte la gare de Takoradi",
+      "arrive de Takoradi"
+    ],
+    "correctIndex": 3,
+    "explanation": "'En provenance de' means 'coming from', so the train is arriving from Takoradi.",
+    "difficulty": "hard",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q114",
+    "topicId": "prepositions",
+    "prompt": "Les professeurs vont partir ….............................. Etats-Unis après l'examen.",
+    "options": [
+      "au",
+      "en",
+      "à la",
+      "aux"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Etats-Unis' is plural, so it takes 'aux'.",
+    "difficulty": "medium",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q115",
+    "topicId": "prepositions",
+    "prompt": "Mon père est douanier. Il travaille …........................... le Ghana et le Togo.",
+    "options": [
+      "à la",
+      "au",
+      "entre",
+      "à l'"
+    ],
+    "correctIndex": 2,
+    "explanation": "'Entre' (between) fits two locations joined by 'et'.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q116",
+    "topicId": "prepositions",
+    "prompt": "En voyageant d'Accra à Paris, nous sommes passés …............................. Casablanca.",
+    "options": [
+      "à travers",
+      "dans",
+      "au",
+      "par"
+    ],
+    "correctIndex": 3,
+    "explanation": "'Passer par' (to pass through/via) is the fixed expression for a stopover.",
+    "difficulty": "medium",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q117",
+    "topicId": "prepositions",
+    "prompt": "Samuel a très mal …................................ ventre.",
+    "options": [
+      "au",
+      "à l'",
+      "à la",
+      "la"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Ventre' is masculine, so 'avoir mal au ventre'.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q118",
+    "topicId": "prepositions",
+    "prompt": "Je cherche la poste. Pouvez-vous m'………. le chemin.",
+    "options": [
+      "indiqué",
+      "indiquer",
+      "indiquez",
+      "indique"
+    ],
+    "correctIndex": 1,
+    "explanation": "After 'pouvez-vous', the second verb stays in the infinitive: indiquer.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q119",
+    "topicId": "prepositions",
+    "prompt": "Mme cherche de la viande. Elle va donc chez …....................................",
+    "options": [
+      "le boulanger",
+      "boutiquier",
+      "le boucher",
+      "le marchand de poisson"
+    ],
+    "correctIndex": 2,
+    "explanation": "Meat is bought from the butcher: chez le boucher.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q120",
+    "topicId": "prepositions",
+    "prompt": "Je veux du pain. Je dois aller chez la …………. pour l'acheter.",
+    "options": [
+      "cordonnière",
+      "boulangère",
+      "bouchère",
+      "coiffeuse"
+    ],
+    "correctIndex": 1,
+    "explanation": "Bread is bought from the baker: chez la boulangère.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q121",
+    "topicId": "prepositions",
+    "prompt": "La demoiselle a mal aux dents. Elle va …………….le dentiste pour se faire soigner.",
+    "options": [
+      "pour",
+      "chez",
+      "à",
+      "au"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Aller chez' + a professional's name: chez le dentiste.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q122",
+    "topicId": "prepositions",
+    "prompt": "Cet ingénieur travaille ………………………………….. TULLOW. Il est riche.",
+    "options": [
+      "chez",
+      "au",
+      "à",
+      "avec"
+    ],
+    "correctIndex": 0,
+    "explanation": "'Travailler chez' + company name.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q123",
+    "topicId": "prepositions",
+    "prompt": "Cinq de mes étudiants à UMaT vont...... l'ophtalmologiste pour un traitement.",
+    "options": [
+      "à",
+      "pour",
+      "chez",
+      "avec"
+    ],
+    "correctIndex": 2,
+    "explanation": "Going to see a specialist doctor uses 'chez'.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q124",
+    "topicId": "prepositions",
+    "prompt": "Les étudiants en génie électrique et électronique sont allés ... le directeur de département.",
+    "options": [
+      "avec",
+      "chez",
+      "dans",
+      "pour"
+    ],
+    "correctIndex": 1,
+    "explanation": "Going to see someone (director) uses 'chez'.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q125",
+    "topicId": "outils-epi",
+    "prompt": "Il y a beaucoup d'objets tranchants sur le site. Vous devez porter des bottes de sécurité pour protéger vos …………",
+    "options": [
+      "yeux",
+      "oreilles",
+      "mains",
+      "pieds"
+    ],
+    "correctIndex": 3,
+    "explanation": "Safety boots protect the feet (les pieds).",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q126",
+    "topicId": "outils-epi",
+    "prompt": "Les lunettes de sécurité protègent nos yeux contre la poussière et les rayonnements. Il faut les …………………… avant de commencer le travail.",
+    "options": [
+      "portent",
+      "porté",
+      "porter",
+      "portez"
+    ],
+    "correctIndex": 2,
+    "explanation": "After 'il faut', the verb stays in the infinitive: porter.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q127",
+    "topicId": "outils-epi",
+    "prompt": "Un tournevis sert à …………………………………… des vis.",
+    "options": [
+      "protéger",
+      "construire",
+      "insérer",
+      "soulever"
+    ],
+    "correctIndex": 2,
+    "explanation": "A screwdriver is used to insert/fix screws.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q128",
+    "topicId": "outils-epi",
+    "prompt": "À quoi sert un excavateur ? - Il sert à …………………………………… le sol.",
+    "options": [
+      "protéger",
+      "agrandir",
+      "insérer",
+      "creuser"
+    ],
+    "correctIndex": 3,
+    "explanation": "An excavator is used to dig (creuser) the ground.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q129",
+    "topicId": "outils-epi",
+    "prompt": "À quoi servent des stylos ? - Ils servent à ……………………………………..",
+    "options": [
+      "écrire",
+      "insérer",
+      "couper",
+      "effacer"
+    ],
+    "correctIndex": 0,
+    "explanation": "Pens are used for writing.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q130",
+    "topicId": "outils-epi",
+    "prompt": "M. Delali Tortor porte une lunette de protection pour …………………………………… ses yeux.",
+    "options": [
+      "protéger",
+      "tailler",
+      "insérer",
+      "soulever"
+    ],
+    "correctIndex": 0,
+    "explanation": "Protective glasses are worn to protect the eyes.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q131",
+    "topicId": "outils-epi",
+    "prompt": "Le bouchon d'oreille sert à protéger ……………………………………",
+    "options": [
+      "l'œil",
+      "la main",
+      "la tête",
+      "l'oreille"
+    ],
+    "correctIndex": 3,
+    "explanation": "An earplug protects the ear.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q132",
+    "topicId": "outils-epi",
+    "prompt": "Le casque de sécurité sert à protéger …………………………………… contre les blessures.",
+    "options": [
+      "l'œil",
+      "la main",
+      "la tête",
+      "l'oreille"
+    ],
+    "correctIndex": 2,
+    "explanation": "A safety helmet protects the head.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q133",
+    "topicId": "outils-epi",
+    "prompt": "Pour protéger les yeux contre la poussière et les rayonnements, on doit …………….. les lunettes de sécurité.",
+    "options": [
+      "manger",
+      "porter",
+      "jouer",
+      "protéger"
+    ],
+    "correctIndex": 1,
+    "explanation": "You wear (porter) safety glasses to protect the eyes.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q134",
+    "topicId": "outils-epi",
+    "prompt": "Pour ……………………………………. on utilise souvent un stylo.",
+    "options": [
+      "manger",
+      "écrire",
+      "couper une corde",
+      "protéger les yeux"
+    ],
+    "correctIndex": 1,
+    "explanation": "A pen is used to write.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q135",
+    "topicId": "outils-epi",
+    "prompt": "On utilise …… pour s'éclairer.",
+    "options": [
+      "le marteau",
+      "le couteau",
+      "la torche",
+      "une pince"
+    ],
+    "correctIndex": 2,
+    "explanation": "A torch/flashlight is used for lighting.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q136",
+    "topicId": "outils-epi",
+    "prompt": "………….. nous aide à transporter des fardeaux d'une place à une autre.",
+    "options": [
+      "Le convoyeur",
+      "Le casque",
+      "Le concasseur",
+      "Le tamis"
+    ],
+    "correctIndex": 0,
+    "explanation": "The conveyor is used to transport loads from place to place.",
+    "difficulty": "medium",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q137",
+    "topicId": "outils-epi",
+    "prompt": "Pour creuser un trou, on utilise …………………………………….",
+    "options": [
+      "un escavateur",
+      "une pince",
+      "un marteau",
+      "un convoyeur"
+    ],
+    "correctIndex": 0,
+    "explanation": "An excavator is used to dig a hole.",
+    "difficulty": "easy",
+    "source": "Exam Aug-Sep 2025"
+  },
+  {
+    "id": "q138",
+    "topicId": "outils-epi",
+    "prompt": "Je sers à serrer et à desserrer les boulons et les écrous. Je suis ....00.",
+    "options": [
+      "un bédane",
+      "une clé à molette",
+      "un burin",
+      "un tournevis"
+    ],
+    "correctIndex": 1,
+    "explanation": "An adjustable wrench (clé à molette) tightens and loosens bolts and nuts.",
+    "difficulty": "medium",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q139",
+    "topicId": "outils-epi",
+    "prompt": "Avec ....................... je protège mes pieds contre les lésions.",
+    "options": [
+      "une ceinture de sécurité",
+      "des bottes de sécurité",
+      "des gants de sécurité",
+      "un casque de sécurité"
+    ],
+    "correctIndex": 1,
+    "explanation": "Safety boots protect the feet from injuries.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q140",
+    "topicId": "outils-epi",
+    "prompt": "Pour me protéger les mains contre des blessures dans le laboratoire, je porte toujours ...",
+    "options": [
+      "des chaussures de sécurité",
+      "une ceinture de sécurité",
+      "des gants",
+      "des lunettes de protection"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gloves (des gants) protect the hands.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q141",
+    "topicId": "outils-epi",
+    "prompt": "Je frappe pour enfoncer des clous ou ajuster des pièces. Je suis ...",
+    "options": [
+      "une pince multiprise",
+      "un marteau",
+      "un mailloche en caoutchouc",
+      "une massette"
+    ],
+    "correctIndex": 1,
+    "explanation": "A hammer strikes to drive in nails.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q142",
+    "topicId": "outils-epi",
+    "prompt": "Je perce des trous dans le métal, le bois ou le béton avec des forets adaptés. Je suis ...",
+    "options": [
+      "une perceuse",
+      "une scie circulaire",
+      "une ponceuse",
+      "une meuleuse"
+    ],
+    "correctIndex": 0,
+    "explanation": "A drill is used to bore holes.",
+    "difficulty": "easy",
+    "source": "Exam 2024 90 Objs"
+  },
+  {
+    "id": "q143",
+    "topicId": "negation-nombres",
+    "prompt": "- Tu parles Hausa ? – Non, ………………………………",
+    "options": [
+      "je parle ne pas Hausa",
+      "je ne parle pas Hausa",
+      "je ne pas parle Hausa",
+      "ne je parle pas Hausa"
+    ],
+    "correctIndex": 1,
+    "explanation": "Basic negation: 'ne' before the verb, 'pas' after: je ne parle pas.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2021"
+  },
+  {
+    "id": "q144",
+    "topicId": "negation-nombres",
+    "prompt": "Elles parlent toutes français mais elles …………………………….. françaises.",
+    "options": [
+      "ne sont pas",
+      "sont ne pas",
+      "ne pas sont",
+      "pas ne sont"
+    ],
+    "correctIndex": 0,
+    "explanation": "Negation of être: ne sont pas.",
+    "difficulty": "easy",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q145",
+    "topicId": "negation-nombres",
+    "prompt": "Nous ne ……………………… pas tard dans la nuit. Cela n'est pas conseillé.",
+    "options": [
+      "mangent",
+      "mangeons",
+      "mangons",
+      "manger"
+    ],
+    "correctIndex": 1,
+    "explanation": "'Nous' form of manger (present tense) within a negation frame: mangeons.",
+    "difficulty": "medium",
+    "source": "Exam Aug 2024"
+  },
+  {
+    "id": "q146",
+    "topicId": "negation-nombres",
+    "prompt": "quatre-vingt-treize = ………………………….",
+    "options": [
+      "93",
+      "83",
+      "94",
+      "73"
+    ],
+    "correctIndex": 0,
+    "explanation": "quatre-vingt (80) + treize (13) = 93.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q147",
+    "topicId": "negation-nombres",
+    "prompt": "soixante et onze = …………………………",
+    "options": [
+      "61",
+      "71",
+      "70",
+      "81"
+    ],
+    "correctIndex": 1,
+    "explanation": "soixante (60) + et onze (11) = 71.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q148",
+    "topicId": "negation-nombres",
+    "prompt": "soixante-dix-huit = …………………………..",
+    "options": [
+      "68",
+      "88",
+      "78",
+      "98"
+    ],
+    "correctIndex": 2,
+    "explanation": "soixante-dix (70) + huit (8) = 78.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q149",
+    "topicId": "negation-nombres",
+    "prompt": "cent dix-neuf = ....................................",
+    "options": [
+      "109",
+      "119",
+      "129",
+      "191"
+    ],
+    "correctIndex": 1,
+    "explanation": "cent (100) + dix-neuf (19) = 119.",
+    "difficulty": "easy",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q150",
+    "topicId": "negation-nombres",
+    "prompt": "deux cent soixante et un = …………………………….",
+    "options": [
+      "261",
+      "251",
+      "271",
+      "216"
+    ],
+    "correctIndex": 0,
+    "explanation": "deux cent (200) + soixante et un (61) = 261.",
+    "difficulty": "medium",
+    "source": "Exam May 2015"
+  },
+  {
+    "id": "q151",
+    "topicId": "negation-nombres",
+    "prompt": "neuf cent soixante dix-neuf = ………………………",
+    "options": [
+      "969",
+      "979",
+      "989",
+      "899"
+    ],
+    "correctIndex": 1,
+    "explanation": "neuf cent (900) + soixante dix-neuf (79) = 979.",
+    "difficulty": "medium",
+    "source": "Exam May 2015"
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "negation": {
+    "presentTense": { "rule": "ne + verb + pas", "example": "Je ne parle pas Hausa." },
+    "passeCompose": { "rule": "ne + auxiliary + pas + past participle", "example": "Mes parents ne sont pas arrivés." },
+    "reflexivePasseCompose": { "rule": "ne + reflexive pronoun + auxiliary + pas + past participle", "example": "Mes tantes ne se sont pas promenées." },
+    "commonMistakes": [
+      "ne sont arrivés pas ❌ (pas placed after participle instead of after auxiliary)",
+      "pas ne sont arrivés ❌ (word order reversed)",
+      "ne pas sont arrivés ❌ (pas placed incorrectly before auxiliary)"
+    ]
+  },
+  "numbers": {
+    "0-20": ["zéro", "un", "deux", "trois", "quatre", "cinq", "six", "sept", "huit", "neuf", "dix", "onze", "douze", "treize", "quatorze", "quinze", "seize", "dix-sept", "dix-huit", "dix-neuf", "vingt"],
+    "tens": [["20", "vingt"], ["30", "trente"], ["40", "quarante"], ["50", "cinquante"], ["60", "soixante"], ["70", "soixante-dix"], ["80", "quatre-vingts"], ["90", "quatre-vingt-dix"], ["100", "cent"]],
+    "trickyRanges": {
+      "70-79": "soixante + (dix, et onze, douze, treize...dix-neuf) → 71 = soixante et onze, 78 = soixante-dix-huit",
+      "80-89": "quatre-vingt + (0-9, no 'et') → 80 = quatre-vingts, 93 = quatre-vingt-treize",
+      "90-99": "quatre-vingt-dix + (0-9) → 91 = quatre-vingt-onze, 99 = quatre-vingt-dix-neuf"
+    },
+    "worked": [
+      ["93", "quatre-vingt-treize"],
+      ["71", "soixante et onze"],
+      ["78", "soixante-dix-huit"],
+      ["119", "cent dix-neuf"],
+      ["26", "vingt-six"],
+      ["261", "deux cent soixante et un"],
+      ["979", "neuf cent soixante dix-neuf"]
+    ]
+  }
+}

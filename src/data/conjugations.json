@@ -1,0 +1,97 @@
+{
+  "passeCompose": {
+    "title": "Le passé composé",
+    "formation": "auxiliary (avoir/être in present tense) + past participle",
+    "auxiliaries": {
+      "avoir": ["j'ai", "tu as", "il/elle a", "nous avons", "vous avez", "ils/elles ont"],
+      "etre": ["je suis", "tu es", "il/elle est", "nous sommes", "vous êtes", "ils/elles sont"]
+    },
+    "participleRules": [
+      { "group": "Group 1 (-er)", "rule": "drop -er, add -é", "examples": [["manger", "mangé"], ["parler", "parlé"], ["monter", "monté"], ["casser", "cassé"], ["oublier", "oublié"], ["rentrer", "rentré"], ["jouer", "joué"], ["prier", "prié"]] },
+      { "group": "Group 2 (-ir regular)", "rule": "drop -ir, add -i", "examples": [["finir", "fini"], ["choisir", "choisi"], ["obéir", "obéi"], ["accomplir", "accompli"], ["bâtir", "bâti"], ["grandir", "grandi"], ["fournir", "fourni"], ["avertir", "averti"]] },
+      { "group": "Group 3 (irregular)", "rule": "no fixed pattern — must be memorised", "examples": [["voir", "vu"], ["vouloir", "voulu"], ["lire", "lu"], ["pleuvoir", "plu"], ["écrire", "écrit"], ["venir", "venu"], ["partir", "parti"], ["sortir", "sorti"], ["mentir", "menti"], ["dormir", "dormi"], ["vendre", "vendu"], ["croire", "cru"], ["apprendre", "appris"], ["prendre", "pris"], ["savoir", "su"], ["aller", "allé"], ["connaître", "connu"], ["naître", "né"], ["faire", "fait"], ["dire", "dit"], ["mettre", "mis"], ["boire", "bu"], ["tenir", "tenu"], ["perdre", "perdu"], ["entendre", "entendu"], ["mourir", "mort"]] }
+    ],
+    "etreVerbs": {
+      "mnemonic": "DR & MRS VANDERTRAMP",
+      "list": [
+        ["Devenir", "to become"],
+        ["Revenir", "to come back"],
+        ["Monter", "to climb / go up"],
+        ["Retourner", "to return"],
+        ["Sortir", "to go out"],
+        ["Venir", "to come"],
+        ["Aller", "to go"],
+        ["Naître", "to be born"],
+        ["Descendre", "to go down"],
+        ["Entrer", "to enter"],
+        ["Rentrer", "to go home / return"],
+        ["Tomber", "to fall"],
+        ["Rester", "to stay"],
+        ["Arriver", "to arrive"],
+        ["Mourir", "to die"],
+        ["Partir", "to leave"]
+      ],
+      "note": "Plus ALL reflexive (pronominal) verbs, e.g. se réveiller, se coucher, se laver, se promener, s'habiller, se préparer, s'appeler.",
+      "agreement": "Past participle agrees with the SUBJECT in gender and number: allé / allée / allés / allées.",
+      "trapVerbs": [
+        { "verb": "sortir", "note": "être = to go out (no object) → il est sorti. avoir = to take something out → il a sorti un mouchoir." },
+        { "verb": "descendre", "note": "être = to go down → elle est descendue. avoir = to bring something down → elle a descendu les valises." },
+        { "verb": "monter", "note": "être = to go up → il est monté. avoir = to carry something up → il a monté les valises." },
+        { "verb": "mourir", "note": "irregular participle: mort / morte / morts / mortes (not 'mouri')." }
+      ]
+    },
+    "avoirVerbs": {
+      "note": "Every verb NOT in DR & MRS VANDERTRAMP and not reflexive takes avoir.",
+      "agreement": "No agreement with the subject. Agreement only happens with a PRECEDING direct object (advanced rule): 'J'ai vu ces enfants' → 'Je les ai vus.'"
+    },
+    "reflexiveExample": {
+      "verb": "se laver",
+      "forms": ["je me suis lavé(e)", "tu t'es lavé(e)", "il s'est lavé", "elle s'est lavée", "nous nous sommes lavé(e)s", "vous vous êtes lavé(e)s", "ils se sont lavés", "elles se sont lavées"]
+    },
+    "negation": {
+      "rule": "ne + auxiliary + pas + past participle",
+      "examples": ["Mes parents ne sont pas arrivés.", "Mes tantes ne se sont pas promenées."],
+      "commonErrors": ["ne sont arrivés pas (WRONG — pas is misplaced)", "pas ne sont arrivés (WRONG — word order reversed)"]
+    }
+  },
+  "imparfait": {
+    "title": "L'imparfait",
+    "usage": ["Ongoing/continuous actions in the past", "Habitual/repeated past actions", "Descriptions and states of being in the past", "Background action interrupted by another event"],
+    "formation": "Take the NOUS stem of the present tense, remove -ons, add the imperfect endings.",
+    "endings": ["-ais", "-ais", "-ait", "-ions", "-iez", "-aient"],
+    "examples": [
+      { "verb": "parler", "presentNous": "nous parlons", "stem": "parl-", "forms": ["je parlais", "tu parlais", "il/elle parlait", "nous parlions", "vous parliez", "ils/elles parlaient"] },
+      { "verb": "finir", "presentNous": "nous finissons", "stem": "finiss-", "forms": ["je finissais", "tu finissais", "il/elle finissait", "nous finissions", "vous finissiez", "ils/elles finissaient"] },
+      { "verb": "avoir", "presentNous": "nous avons", "stem": "av- (irregular)", "forms": ["j'avais", "tu avais", "il/elle avait", "nous avions", "vous aviez", "ils/elles avaient"] },
+      { "verb": "vouloir", "presentNous": "nous voulons", "stem": "voul-", "forms": ["je voulais", "tu voulais", "il/elle voulait", "nous voulions", "vous vouliez", "ils/elles voulaient"] },
+      { "verb": "apprendre", "presentNous": "nous apprenons", "stem": "appren-", "forms": ["j'apprenais", "tu apprenais", "il/elle apprenait", "nous apprenions", "vous appreniez", "ils/elles apprenaient"] },
+      { "verb": "manger", "presentNous": "nous mangeons", "stem": "mange-", "forms": ["je mangeais", "tu mangeais", "il/elle mangeait", "nous mangions", "vous mangiez", "ils/elles mangeaient"], "note": "Verbs in -ger keep the 'e' EXCEPT before -ions/-iez (nous mangions, not mangeions)." }
+    ],
+    "irregularException": {
+      "verb": "être",
+      "note": "Does not use the nous-stem rule. Irregular stem: ét-",
+      "forms": ["j'étais", "tu étais", "il/elle était", "nous étions", "vous étiez", "ils/elles étaient"]
+    },
+    "triggerWords": ["quand j'étais petit", "auparavant", "autrefois", "à cette époque", "tous les jours (in the past)"]
+  },
+  "futurSimple": {
+    "title": "Le futur simple",
+    "usage": "Plans, predictions, promises, decisions, future events.",
+    "endings": ["-ai", "-as", "-a", "-ons", "-ez", "-ont"],
+    "regularRules": [
+      { "group": "-ER and -IR verbs", "rule": "Keep the full infinitive as the stem.", "examples": [["parler", "parlerai"], ["aimer", "aimerai"], ["travailler", "travaillerai"], ["finir", "finirai"], ["choisir", "choisirai"], ["grandir", "grandirai"], ["danser", "danserai"], ["arriver", "arrivera"], ["manger", "mangerai"]] },
+      { "group": "-RE verbs", "rule": "Drop the final -e from the infinitive.", "examples": [["vendre", "vendrai"], ["prendre", "prendrai"], ["mettre", "mettrai"]] }
+    ],
+    "irregularStems": [
+      ["être", "ser-"], ["avoir", "aur-"], ["aller", "ir-"], ["faire", "fer-"],
+      ["venir", "viendr-"], ["devenir", "deviendr-"], ["voir", "verr-"], ["savoir", "saur-"],
+      ["pouvoir", "pourr-"], ["devoir", "devr-"], ["vouloir", "voudr-"], ["envoyer", "enverr-"]
+    ],
+    "fullExample": {
+      "verb": "parler",
+      "forms": ["je parlerai", "tu parleras", "il/elle parlera", "nous parlerons", "vous parlerez", "ils/elles parleront"]
+    },
+    "triggerWordsFuture": ["demain", "après-demain", "bientôt", "la semaine prochaine", "l'année prochaine", "dans deux jours"],
+    "triggerWordsPast": ["hier", "avant-hier", "la semaine dernière", "l'année dernière", "déjà", "auparavant"]
+  }
+}

@@ -1,0 +1,2100 @@
+[
+  {
+    "id": "fc001",
+    "topicId": "se-presenter",
+    "front": "Comment vous appelez-vous ?",
+    "back": "What is your name?",
+    "example": "Je m'appelle Francis Yankey.",
+    "exampleTranslation": "My name is Francis Yankey.",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc002",
+    "topicId": "se-presenter",
+    "front": "Quel âge avez-vous ?",
+    "back": "How old are you?",
+    "example": "J'ai 22 ans.",
+    "exampleTranslation": "I am 22 years old.",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc003",
+    "topicId": "se-presenter",
+    "front": "Où habitez-vous ?",
+    "back": "Where do you live?",
+    "example": "J'habite à Tarkwa.",
+    "exampleTranslation": "I live in Tarkwa.",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc004",
+    "topicId": "se-presenter",
+    "front": "Quelle est votre nationalité ?",
+    "back": "What is your nationality?",
+    "example": "Je suis ghanéen. / Je suis ghanéenne.",
+    "exampleTranslation": "I am Ghanaian (m./f.)",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc005",
+    "topicId": "se-presenter",
+    "front": "Quelle est votre profession ?",
+    "back": "What is your profession?",
+    "example": "Je suis étudiant. / Je suis étudiante.",
+    "exampleTranslation": "I am a student (m./f.)",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc006",
+    "topicId": "se-presenter",
+    "front": "Quel est votre état civil ?",
+    "back": "What is your marital status?",
+    "example": "Je suis célibataire.",
+    "exampleTranslation": "I am single.",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc007",
+    "topicId": "se-presenter",
+    "front": "Qu'est-ce que tu fais dans la vie ?",
+    "back": "What do you do for a living?",
+    "example": "Je suis en première année à UMaT.",
+    "exampleTranslation": "I am in my first year at UMaT.",
+    "tags": [
+      "question",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc008",
+    "topicId": "se-presenter",
+    "front": "le nom",
+    "back": "surname / last name",
+    "example": "Mon nom est Yankey.",
+    "exampleTranslation": "My surname is Yankey.",
+    "tags": [
+      "vocab"
+    ]
+  },
+  {
+    "id": "fc009",
+    "topicId": "se-presenter",
+    "front": "le prénom",
+    "back": "first name",
+    "example": "Mon prénom est Francis.",
+    "exampleTranslation": "My first name is Francis.",
+    "tags": [
+      "vocab"
+    ]
+  },
+  {
+    "id": "fc010",
+    "topicId": "se-presenter",
+    "front": "le programme d'étude",
+    "back": "course of study",
+    "example": "J'étudie le Génie Minier.",
+    "exampleTranslation": "I study Mining Engineering.",
+    "tags": [
+      "vocab"
+    ]
+  },
+  {
+    "id": "fc011",
+    "topicId": "se-presenter",
+    "front": "célibataire",
+    "back": "single (same form m. & f. — invariable)",
+    "example": "Le directeur est célibataire. Il n'est pas marié.",
+    "exampleTranslation": "The director is single. He is not married.",
+    "tags": [
+      "état-civil",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc012",
+    "topicId": "se-presenter",
+    "front": "marié / mariée",
+    "back": "married (m./f.)",
+    "example": "Joseph est marié. Emelia est mariée.",
+    "exampleTranslation": "Joseph is married. Emelia is married.",
+    "tags": [
+      "état-civil"
+    ]
+  },
+  {
+    "id": "fc013",
+    "topicId": "se-presenter",
+    "front": "veuf / veuve",
+    "back": "widower / widow",
+    "example": "Le directeur est veuf. Il n'est pas marié.",
+    "exampleTranslation": "The director is a widower. He is not married.",
+    "tags": [
+      "état-civil",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc014",
+    "topicId": "se-presenter",
+    "front": "divorcé / divorcée",
+    "back": "divorced (m./f.)",
+    "example": "Mon oncle est divorcé.",
+    "exampleTranslation": "My uncle is divorced.",
+    "tags": [
+      "état-civil"
+    ]
+  },
+  {
+    "id": "fc015",
+    "topicId": "se-presenter",
+    "front": "séparé / séparée",
+    "back": "separated (m./f.)",
+    "example": "Ils sont séparés.",
+    "exampleTranslation": "They are separated.",
+    "tags": [
+      "état-civil"
+    ]
+  },
+  {
+    "id": "fc016",
+    "topicId": "se-presenter",
+    "front": "Je suis né(e) en ... à ...",
+    "back": "I was born in (year) in (place)",
+    "example": "Je suis née en 1981 à Accra.",
+    "exampleTranslation": "I was born in 1981 in Accra.",
+    "tags": [
+      "passé-composé-link",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc017",
+    "topicId": "se-presenter",
+    "front": "la fiche d'identité",
+    "back": "ID / bio-data form",
+    "example": "Complétez la fiche d'identité avec vos détails.",
+    "exampleTranslation": "Fill in the ID form with your details.",
+    "tags": [
+      "vocab",
+      "exam-format"
+    ]
+  },
+  {
+    "id": "fc018",
+    "topicId": "se-presenter",
+    "front": "les langues parlées",
+    "back": "the languages spoken",
+    "example": "Je parle français, anglais et fanti.",
+    "exampleTranslation": "I speak French, English, and Fante.",
+    "tags": [
+      "vocab",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc019",
+    "topicId": "se-presenter",
+    "front": "le village natal",
+    "back": "home village / hometown",
+    "example": "Mon village natal est Elmina.",
+    "exampleTranslation": "My hometown is Elmina.",
+    "tags": [
+      "vocab",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc020",
+    "topicId": "se-presenter",
+    "front": "Il s'appelle... / Elle s'appelle...",
+    "back": "His name is... / Her name is... (introducing someone else)",
+    "example": "Il s'appelle Kwame. Il a 25 ans et il habite à Bolga.",
+    "exampleTranslation": "His name is Kwame. He is 25 and lives in Bolga.",
+    "tags": [
+      "3rd-person"
+    ]
+  },
+  {
+    "id": "fc021",
+    "topicId": "se-presenter",
+    "front": "Comment tu t'appelles ?",
+    "back": "What's your name? (informal)",
+    "example": "Je m'appelle Ama.",
+    "exampleTranslation": "My name is Ama.",
+    "tags": [
+      "question",
+      "informal"
+    ]
+  },
+  {
+    "id": "fc022",
+    "topicId": "heure",
+    "front": "Il est midi.",
+    "back": "It is 12:00 noon.",
+    "example": "Il est midi. C'est-à-dire, il est douze heures.",
+    "exampleTranslation": "It is noon, that is, 12:00.",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "fc023",
+    "topicId": "heure",
+    "front": "Il est minuit.",
+    "back": "It is 12:00 midnight.",
+    "example": "Il est minuit. Le calme règne dans la ville.",
+    "exampleTranslation": "It is midnight. The city is calm.",
+    "tags": [
+      "time"
+    ]
+  },
+  {
+    "id": "fc024",
+    "topicId": "heure",
+    "front": "...et quart",
+    "back": "...fifteen / quarter past",
+    "example": "Il est midi et quart = 12h15.",
+    "exampleTranslation": "It is a quarter past noon = 12:15.",
+    "tags": [
+      "formula",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc025",
+    "topicId": "heure",
+    "front": "...et demie",
+    "back": "...thirty / half past",
+    "example": "Il est trois heures et demie = 15h30 (de l'après-midi).",
+    "exampleTranslation": "It is half past three = 3:30 PM.",
+    "tags": [
+      "formula",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc026",
+    "topicId": "heure",
+    "front": "...moins le quart",
+    "back": "...quarter to (subtract 15 minutes)",
+    "example": "Il est sept heures moins le quart = 6h45.",
+    "exampleTranslation": "It is a quarter to seven = 6:45.",
+    "tags": [
+      "formula",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc027",
+    "topicId": "heure",
+    "front": "...moins vingt",
+    "back": "...twenty to (subtract 20 minutes)",
+    "example": "Il est sept heures moins vingt = 6h40.",
+    "exampleTranslation": "It is twenty to seven = 6:40.",
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "fc028",
+    "topicId": "heure",
+    "front": "vingt-trois heures moins le quart",
+    "back": "22h45 (subtract 15 min from 23h)",
+    "example": "Les ingénieurs arriveront vers vingt-trois heures moins le quart = 22h45.",
+    "exampleTranslation": "The engineers will arrive around 10:45 PM.",
+    "tags": [
+      "exam-2021",
+      "exam-2025",
+      "trap"
+    ]
+  },
+  {
+    "id": "fc029",
+    "topicId": "heure",
+    "front": "du matin / de l'après-midi / du soir",
+    "back": "in the morning / in the afternoon / in the evening",
+    "example": "Il est trois heures de l'après-midi = 15h00.",
+    "exampleTranslation": "It is three in the afternoon = 15:00.",
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "fc030",
+    "topicId": "heure",
+    "front": "Il est quatorze heures et demie.",
+    "back": "It is 14:30.",
+    "example": "Il est quatorze heures et demie = 14h30.",
+    "exampleTranslation": "It is 14:30.",
+    "tags": [
+      "24hr-to-french"
+    ]
+  },
+  {
+    "id": "fc031",
+    "topicId": "heure",
+    "front": "Quelle heure est-il ?",
+    "back": "What time is it?",
+    "example": "Quelle heure est-il ? Il est neuf heures vingt.",
+    "exampleTranslation": "What time is it? It's 9:20.",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc032",
+    "topicId": "heure",
+    "front": "À quelle heure... ?",
+    "back": "At what time...?",
+    "example": "À quelle heure finit le cours ?",
+    "exampleTranslation": "At what time does class end?",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc033",
+    "topicId": "heure",
+    "front": "Il y a vingt-quatre heures dans une journée.",
+    "back": "There are 24 hours in a day.",
+    "example": "Il y a vingt-quatre heures dans une journée.",
+    "exampleTranslation": "There are 24 hours in a day.",
+    "tags": [
+      "fact",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc034",
+    "topicId": "heure",
+    "front": "Trick: 'X heures moins Y' means SUBTRACT Y from X:00",
+    "back": "e.g. quinze heures moins dix = 14h50",
+    "example": "Le Chef a une réunion à quinze heures moins dix = 14h50.",
+    "exampleTranslation": "The Chief has a meeting at 14:50.",
+    "tags": [
+      "strategy"
+    ]
+  },
+  {
+    "id": "fc035",
+    "topicId": "heure",
+    "front": "Trick: 'X heures et Y' means ADD Y minutes to X:00",
+    "back": "e.g. neuf heures vingt = 9h20",
+    "example": "Ils se rencontrent à 9h20 = neuf heures vingt.",
+    "exampleTranslation": "They meet at 9:20.",
+    "tags": [
+      "strategy"
+    ]
+  },
+  {
+    "id": "fc036",
+    "topicId": "heure",
+    "front": "17h50 in words",
+    "back": "dix-sept heures cinquante",
+    "example": "Nous allumons la machine à 17h50 = dix-sept heures cinquante.",
+    "exampleTranslation": "We switch on the machine at 17:50.",
+    "tags": [
+      "24hr-to-french",
+      "exam-2024-90obj"
+    ]
+  },
+  {
+    "id": "fc037",
+    "topicId": "adjectifs",
+    "front": "Rule: adjectives agree with the noun",
+    "back": "in GENDER (masc./fem.) and NUMBER (sing./plur.)",
+    "example": "Yao Ming est grand et fort. (masc. sing.) / Ngozi est grande et forte. (fem. sing.)",
+    "exampleTranslation": "Yao Ming is tall and strong. / Ngozi is tall and strong.",
+    "tags": [
+      "core-rule"
+    ]
+  },
+  {
+    "id": "fc038",
+    "topicId": "adjectifs",
+    "front": "General rule for feminine",
+    "back": "add -e to the masculine form",
+    "example": "Le garçon est grand. → La fille est grande.",
+    "exampleTranslation": "The boy is tall. → The girl is tall.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc039",
+    "topicId": "adjectifs",
+    "front": "Adjectives already ending in -e",
+    "back": "stay the same in the feminine",
+    "example": "Le garçon est jeune. → La fille est jeune.",
+    "exampleTranslation": "The boy is young. → The girl is young.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc040",
+    "topicId": "adjectifs",
+    "front": "Adjectives ending in -on",
+    "back": "double the n, add -e: bon→bonne, mignon→mignonne",
+    "example": "Le bébé est mignon. → La fille est mignonne.",
+    "exampleTranslation": "The baby is cute. → The girl is cute.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc041",
+    "topicId": "adjectifs",
+    "front": "Adjectives ending in -eux",
+    "back": "change to -euse: heureux→heureuse, sérieux→sérieuse",
+    "example": "Le garçon est sérieux. → La fille est sérieuse.",
+    "exampleTranslation": "The boy is serious. → The girl is serious.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc042",
+    "topicId": "adjectifs",
+    "front": "Adjectives ending in -if",
+    "back": "change to -ive: actif→active, agressif→agressive",
+    "example": "Il est actif. → Elle est active.",
+    "exampleTranslation": "He is active. → She is active.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc043",
+    "topicId": "adjectifs",
+    "front": "Adjectives ending in -c",
+    "back": "change to -que: public→publique, laïc→laïque",
+    "example": "C'est un spectacle public. → C'est une célébration publique.",
+    "exampleTranslation": "It's a public show. → It's a public celebration.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc044",
+    "topicId": "adjectifs",
+    "front": "Irregular: beau / belle",
+    "back": "handsome/beautiful",
+    "example": "Il est beau. Elle est belle.",
+    "exampleTranslation": "He is handsome. She is beautiful.",
+    "tags": [
+      "irregular",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc045",
+    "topicId": "adjectifs",
+    "front": "Irregular: nouveau / nouvelle",
+    "back": "new",
+    "example": "Le nouveau directeur. La nouvelle directrice.",
+    "exampleTranslation": "The new director (m./f.)",
+    "tags": [
+      "irregular",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc046",
+    "topicId": "adjectifs",
+    "front": "Irregular: vieux / vieille",
+    "back": "old",
+    "example": "Le conducteur est vieux. La conductrice est vieille.",
+    "exampleTranslation": "The driver is old (m./f.)",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc047",
+    "topicId": "adjectifs",
+    "front": "Irregular: favori / favorite",
+    "back": "favourite",
+    "example": "Le plat favori du menuisier est du riz au gras.",
+    "exampleTranslation": "The carpenter's favourite dish is jollof rice.",
+    "tags": [
+      "irregular",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc048",
+    "topicId": "adjectifs",
+    "front": "Irregular: gros / grosse",
+    "back": "fat/big",
+    "example": "Il est gros. Elle est grosse.",
+    "exampleTranslation": "He is fat. She is fat.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc049",
+    "topicId": "adjectifs",
+    "front": "Irregular: gentil / gentille",
+    "back": "kind",
+    "example": "L'homme est gentil. La femme est gentille.",
+    "exampleTranslation": "The man is kind. The woman is kind.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc050",
+    "topicId": "adjectifs",
+    "front": "Irregular: doux / douce",
+    "back": "soft/gentle",
+    "example": "Il est doux. Elle est douce.",
+    "exampleTranslation": "He is gentle. She is gentle.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc051",
+    "topicId": "adjectifs",
+    "front": "Irregular: jaloux / jalouse",
+    "back": "jealous",
+    "example": "L'homme est jaloux de son ami. La femme est jalouse de son amie.",
+    "exampleTranslation": "The man is jealous of his friend (m./f.)",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc052",
+    "topicId": "adjectifs",
+    "front": "Irregular: faux / fausse",
+    "back": "false",
+    "example": "C'est faux. C'est une fausse nouvelle.",
+    "exampleTranslation": "That's false. That's fake news.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc053",
+    "topicId": "adjectifs",
+    "front": "Plural of adjectives",
+    "back": "generally add -s (or -x for some -eau/-al endings)",
+    "example": "Il est grand. → Ils sont grands. Elle est grande. → Elles sont grandes.",
+    "exampleTranslation": "He is tall → They are tall (m./f.)",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc054",
+    "topicId": "adjectifs",
+    "front": "Feminine of professions: default rule",
+    "back": "add -e: avocat→avocate, marchand→marchande",
+    "example": "Tsatsu Tsikata est avocat. Georgina Woode est avocate.",
+    "exampleTranslation": "Tsatsu Tsikata is a lawyer. Georgina Woode is a lawyer.",
+    "tags": [
+      "profession",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc055",
+    "topicId": "adjectifs",
+    "front": "Feminine of professions ending in -e",
+    "back": "stays the same: journaliste, artiste",
+    "example": "Il est journaliste. Elle est journaliste.",
+    "exampleTranslation": "He is a journalist. She is a journalist.",
+    "tags": [
+      "profession"
+    ]
+  },
+  {
+    "id": "fc056",
+    "topicId": "adjectifs",
+    "front": "Feminine of professions: -eur → -euse",
+    "back": "chanteur→chanteuse",
+    "example": "Il est chanteur. Elle est chanteuse.",
+    "exampleTranslation": "He is a singer. She is a singer.",
+    "tags": [
+      "profession"
+    ]
+  },
+  {
+    "id": "fc057",
+    "topicId": "adjectifs",
+    "front": "Feminine of professions: -teur → -trice",
+    "back": "directeur→directrice",
+    "example": "Il est directeur. Elle est directrice.",
+    "exampleTranslation": "He is a director. She is a director.",
+    "tags": [
+      "profession",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc058",
+    "topicId": "adjectifs",
+    "front": "Feminine of professions: -er → -ère",
+    "back": "boulanger→boulangère",
+    "example": "Il est boulanger. Elle est boulangère.",
+    "exampleTranslation": "He is a baker. She is a baker.",
+    "tags": [
+      "profession"
+    ]
+  },
+  {
+    "id": "fc059",
+    "topicId": "adjectifs",
+    "front": "Feminine of professions: -ien → -ienne",
+    "back": "musicien→musicienne, mécanicien→mécanicienne",
+    "example": "Il est mécanicien. Elle est mécanicienne.",
+    "exampleTranslation": "He is a mechanic. She is a mechanic.",
+    "tags": [
+      "profession",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc060",
+    "topicId": "adjectifs",
+    "front": "ingénieur / ingénieure",
+    "back": "engineer (m./f.)",
+    "example": "L'ingénieur est grand. L'ingénieure est grande.",
+    "exampleTranslation": "The engineer is tall (m./f.)",
+    "tags": [
+      "profession",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc061",
+    "topicId": "passe-compose",
+    "front": "Formation of passé composé",
+    "back": "avoir/être (present) + past participle",
+    "example": "J'ai mangé du riz. Mon père est parti au travail.",
+    "exampleTranslation": "I ate rice. My father left for work.",
+    "tags": [
+      "core-rule"
+    ]
+  },
+  {
+    "id": "fc062",
+    "topicId": "passe-compose",
+    "front": "Group 1 verbs (-er) past participle",
+    "back": "drop -er, add -é: manger→mangé, parler→parlé",
+    "example": "J'ai parlé avec le directeur.",
+    "exampleTranslation": "I spoke with the director.",
+    "tags": [
+      "formation"
+    ]
+  },
+  {
+    "id": "fc063",
+    "topicId": "passe-compose",
+    "front": "Group 2 verbs (-ir) past participle",
+    "back": "drop -ir, add -i: finir→fini, choisir→choisi",
+    "example": "Elle a fini son travail.",
+    "exampleTranslation": "She finished her work.",
+    "tags": [
+      "formation"
+    ]
+  },
+  {
+    "id": "fc064",
+    "topicId": "passe-compose",
+    "front": "Group 3 irregular past participles",
+    "back": "voir→vu, faire→fait, dire→dit, écrire→écrit, prendre→pris, mettre→mis, boire→bu, lire→lu, savoir→su, connaître→connu",
+    "example": "J'ai vu notre directeur en ville.",
+    "exampleTranslation": "I saw our director in town.",
+    "tags": [
+      "formation",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc065",
+    "topicId": "passe-compose",
+    "front": "DR & MRS VANDERTRAMP",
+    "back": "the 16 verbs that take être: Devenir, Revenir, Monter, Retourner, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Rester, Arriver, Mourir, Partir",
+    "example": "Elle est née au Ghana.",
+    "exampleTranslation": "She was born in Ghana.",
+    "tags": [
+      "mnemonic",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc066",
+    "topicId": "passe-compose",
+    "front": "Reflexive verbs always take être",
+    "back": "se réveiller, se coucher, se laver, se promener...",
+    "example": "Les étudiants se sont couchés tard à cause de l'examen.",
+    "exampleTranslation": "The students went to bed late because of the exam.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc067",
+    "topicId": "passe-compose",
+    "front": "Être-verb agreement",
+    "back": "past participle agrees with subject in gender/number: allé/allée/allés/allées",
+    "example": "Mon frère est venu. Ma sœur est venue. Mes frères sont venus. Mes sœurs sont venues.",
+    "exampleTranslation": "My brother came. My sister came. My brothers came. My sisters came.",
+    "tags": [
+      "agreement",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc068",
+    "topicId": "passe-compose",
+    "front": "naître past participle agreement",
+    "back": "né / née / nés / nées",
+    "example": "Je suis née en 1981 à Accra.",
+    "exampleTranslation": "I was born in 1981 in Accra.",
+    "tags": [
+      "agreement",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc069",
+    "topicId": "passe-compose",
+    "front": "mourir past participle (irregular)",
+    "back": "mort / morte / morts / mortes (NOT mouri)",
+    "example": "Il est mort hier.",
+    "exampleTranslation": "He died yesterday.",
+    "tags": [
+      "irregular",
+      "trap"
+    ]
+  },
+  {
+    "id": "fc070",
+    "topicId": "passe-compose",
+    "front": "sortir (avoir vs être meaning shift)",
+    "back": "être = to go out; avoir = to take something out",
+    "example": "Elle est sortie de la maison. / Elle a sorti un mouchoir de son sac.",
+    "exampleTranslation": "She went out of the house. / She took a handkerchief out of her bag.",
+    "tags": [
+      "trap",
+      "exam-2024",
+      "exam-2024-90obj"
+    ]
+  },
+  {
+    "id": "fc071",
+    "topicId": "passe-compose",
+    "front": "descendre (avoir vs être meaning shift)",
+    "back": "être = to go down; avoir = to bring/take down",
+    "example": "Elles sont descendues. / Elle a descendu les valises.",
+    "exampleTranslation": "They went down. / She brought the suitcases down.",
+    "tags": [
+      "trap"
+    ]
+  },
+  {
+    "id": "fc072",
+    "topicId": "passe-compose",
+    "front": "avoir-verbs: no agreement with subject",
+    "back": "past participle stays in masculine singular form",
+    "example": "Les journalistes ont arrivés → WRONG. Les étudiants ont terminé l'examen → CORRECT (no agreement).",
+    "exampleTranslation": "The students finished the exam.",
+    "tags": [
+      "trap",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc073",
+    "topicId": "passe-compose",
+    "front": "avoir-verbs: agreement WITH preceding direct object",
+    "back": "e.g. 'ces enfants' before 'j'ai vus'",
+    "example": "J'ai vu ces enfants. → Je les ai vus.",
+    "exampleTranslation": "I saw those children. → I saw them.",
+    "tags": [
+      "advanced"
+    ]
+  },
+  {
+    "id": "fc074",
+    "topicId": "passe-compose",
+    "front": "Reflexive verb full conjugation: se laver",
+    "back": "je me suis lavé(e), tu t'es lavé(e), il s'est lavé, elle s'est lavée, nous nous sommes lavé(e)s, vous vous êtes lavé(e)s, ils se sont lavés, elles se sont lavées",
+    "example": "Je me suis lavée ce matin.",
+    "exampleTranslation": "I washed myself this morning.",
+    "tags": [
+      "conjugation",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc075",
+    "topicId": "passe-compose",
+    "front": "j'ai / tu as / il-elle a / nous avons / vous avez / ils-elles ont",
+    "back": "avoir in the present tense (auxiliary)",
+    "example": "J'ai mangé. Nous avons terminé.",
+    "exampleTranslation": "I ate. We finished.",
+    "tags": [
+      "auxiliary"
+    ]
+  },
+  {
+    "id": "fc076",
+    "topicId": "passe-compose",
+    "front": "je suis / tu es / il-elle est / nous sommes / vous êtes / ils-elles sont",
+    "back": "être in the present tense (auxiliary)",
+    "example": "Je suis allé. Elles sont parties.",
+    "exampleTranslation": "I went. They left.",
+    "tags": [
+      "auxiliary"
+    ]
+  },
+  {
+    "id": "fc077",
+    "topicId": "passe-compose",
+    "front": "revenir → revenu(e)(s)",
+    "back": "to come back",
+    "example": "Le directeur est revenu de France hier.",
+    "exampleTranslation": "The director came back from France yesterday.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc078",
+    "topicId": "passe-compose",
+    "front": "arriver → arrivé(e)(s)",
+    "back": "to arrive",
+    "example": "Les ingénieurs sont arrivés à Tarkwa.",
+    "exampleTranslation": "The engineers arrived in Tarkwa.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc079",
+    "topicId": "passe-compose",
+    "front": "tomber → tombé(e)(s)",
+    "back": "to fall",
+    "example": "Le garçon est tombé par terre. La fille est tombée par terre.",
+    "exampleTranslation": "The boy fell down. The girl fell down.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc080",
+    "topicId": "passe-compose",
+    "front": "devenir → devenu(e)(s)",
+    "back": "to become",
+    "example": "Mes deux sœurs sont devenues avocates.",
+    "exampleTranslation": "My two sisters became lawyers.",
+    "tags": [
+      "conjugation",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc081",
+    "topicId": "passe-compose",
+    "front": "prendre → pris (irregular, avoir)",
+    "back": "to take",
+    "example": "J'ai pris le train.",
+    "exampleTranslation": "I took the train.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc082",
+    "topicId": "passe-compose",
+    "front": "écrire → écrit (irregular, avoir)",
+    "back": "to write",
+    "example": "L'employé a écrit une lettre à son patron.",
+    "exampleTranslation": "The employee wrote a letter to his boss.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc083",
+    "topicId": "passe-compose",
+    "front": "boire → bu (irregular, avoir)",
+    "back": "to drink",
+    "example": "Kwamé a bu un verre de Chapalo.",
+    "exampleTranslation": "Kwame drank a glass of Chapalo.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc084",
+    "topicId": "passe-compose",
+    "front": "vendre → vendu (regular -re, avoir)",
+    "back": "to sell",
+    "example": "La vendeuse a vendu des tomates.",
+    "exampleTranslation": "The saleswoman sold tomatoes.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc085",
+    "topicId": "passe-compose",
+    "front": "voir → vu (irregular, avoir)",
+    "back": "to see",
+    "example": "J'ai vu ces enfants au campus.",
+    "exampleTranslation": "I saw those children on campus.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc086",
+    "topicId": "imparfait",
+    "front": "When to use l'imparfait",
+    "back": "ongoing/habitual past actions, descriptions, states of being",
+    "example": "J'allais au cours en voiture tous les jours.",
+    "exampleTranslation": "I used to go to class by car every day.",
+    "tags": [
+      "core-rule"
+    ]
+  },
+  {
+    "id": "fc087",
+    "topicId": "imparfait",
+    "front": "Formation of l'imparfait",
+    "back": "take the NOUS stem of the present tense + endings: -ais, -ais, -ait, -ions, -iez, -aient",
+    "example": "parler → nous parlons → je parlais",
+    "exampleTranslation": "to speak → we speak → I was speaking/used to speak",
+    "tags": [
+      "core-rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc088",
+    "topicId": "imparfait",
+    "front": "Imparfait endings",
+    "back": "je -ais, tu -ais, il/elle -ait, nous -ions, vous -iez, ils/elles -aient",
+    "example": "Je parlais, tu parlais, il parlait, nous parlions, vous parliez, ils parlaient.",
+    "exampleTranslation": "I was speaking (all forms)",
+    "tags": [
+      "formation"
+    ]
+  },
+  {
+    "id": "fc089",
+    "topicId": "imparfait",
+    "front": "être in the imparfait (irregular stem)",
+    "back": "ét- + endings: j'étais, tu étais, il était, nous étions, vous étiez, ils étaient",
+    "example": "J'étais fatigué hier soir.",
+    "exampleTranslation": "I was tired last night.",
+    "tags": [
+      "irregular",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc090",
+    "topicId": "imparfait",
+    "front": "avoir in the imparfait",
+    "back": "av- + endings: j'avais, tu avais, il avait, nous avions, vous aviez, ils avaient",
+    "example": "L'ingénieur avait beaucoup d'argent quand il était jeune.",
+    "exampleTranslation": "The engineer had a lot of money when he was young.",
+    "tags": [
+      "conjugation",
+      "exam-2026-wk7"
+    ]
+  },
+  {
+    "id": "fc091",
+    "topicId": "imparfait",
+    "front": "finir in the imparfait",
+    "back": "nous finissons → je finissais, ... ils finissaient",
+    "example": "Les étudiants finissaient toujours en retard.",
+    "exampleTranslation": "The students always used to finish late.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc092",
+    "topicId": "imparfait",
+    "front": "verbs ending in -ger in the imparfait",
+    "back": "keep the -e before -ions/-iez is dropped for nous/vous only: manger→nous mangions (not mangeions)",
+    "example": "Nous mangions du riz chaque jour.",
+    "exampleTranslation": "We used to eat rice every day.",
+    "tags": [
+      "spelling-rule",
+      "trap"
+    ]
+  },
+  {
+    "id": "fc093",
+    "topicId": "imparfait",
+    "front": "vouloir in the imparfait",
+    "back": "voul- + endings: je voulais, tu voulais...",
+    "example": "Je voulais t'appeler mais je n'ai pas pu.",
+    "exampleTranslation": "I wanted to call you but I couldn't.",
+    "tags": [
+      "conjugation"
+    ]
+  },
+  {
+    "id": "fc094",
+    "topicId": "imparfait",
+    "front": "venir in the imparfait",
+    "back": "ven- + endings: je venais, ils venaient",
+    "example": "Ses amis venaient toujours au cours en retard.",
+    "exampleTranslation": "His friends always used to come to class late.",
+    "tags": [
+      "conjugation",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc095",
+    "topicId": "imparfait",
+    "front": "habiter in the imparfait",
+    "back": "habit- + endings",
+    "example": "Ils habitaient un peu loin du campus.",
+    "exampleTranslation": "They used to live a little far from campus.",
+    "tags": [
+      "conjugation",
+      "exam-2024"
+    ]
+  },
+  {
+    "id": "fc096",
+    "topicId": "imparfait",
+    "front": "travailler in the imparfait",
+    "back": "travaill- + endings",
+    "example": "Auparavant, cette ingénieure travaillait avec Anglogold Ashanti.",
+    "exampleTranslation": "Previously, this engineer used to work with Anglogold Ashanti.",
+    "tags": [
+      "conjugation",
+      "exam-2024",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc097",
+    "topicId": "imparfait",
+    "front": "savoir in the imparfait",
+    "back": "sav- + endings",
+    "example": "L'homme d'affaires ne savait pas comment gérer son argent.",
+    "exampleTranslation": "The businessman didn't know how to manage his money.",
+    "tags": [
+      "conjugation",
+      "exam-2026-wk7"
+    ]
+  },
+  {
+    "id": "fc098",
+    "topicId": "imparfait",
+    "front": "Key trigger words for l'imparfait",
+    "back": "quand j'étais petit, auparavant, autrefois, à cette époque",
+    "example": "Je pleurais quand j'étais petit.",
+    "exampleTranslation": "I used to cry when I was little.",
+    "tags": [
+      "trigger-words"
+    ]
+  },
+  {
+    "id": "fc099",
+    "topicId": "imparfait",
+    "front": "Imparfait vs passé composé",
+    "back": "imparfait = background/ongoing; passé composé = specific completed action",
+    "example": "Je me promenais en ville quand j'ai vu notre directeur.",
+    "exampleTranslation": "I was walking in town when I saw our director.",
+    "tags": [
+      "comparison",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc100",
+    "topicId": "futur-simple",
+    "front": "When to use le futur simple",
+    "back": "plans, predictions, promises, decisions, future events",
+    "example": "Je travaillerai demain.",
+    "exampleTranslation": "I will work tomorrow.",
+    "tags": [
+      "core-rule"
+    ]
+  },
+  {
+    "id": "fc101",
+    "topicId": "futur-simple",
+    "front": "Futur simple endings (all verb groups)",
+    "back": "-ai, -as, -a, -ons, -ez, -ont",
+    "example": "je parlerai, tu parleras, il parlera, nous parlerons, vous parlerez, ils parleront",
+    "exampleTranslation": "I will speak (all forms)",
+    "tags": [
+      "formation",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc102",
+    "topicId": "futur-simple",
+    "front": "Regular -ER/-IR verbs: future stem",
+    "back": "keep the whole infinitive: parler→parlerai, finir→finirai",
+    "example": "Elle finira son travail la semaine prochaine.",
+    "exampleTranslation": "She will finish her work next week.",
+    "tags": [
+      "formation"
+    ]
+  },
+  {
+    "id": "fc103",
+    "topicId": "futur-simple",
+    "front": "Regular -RE verbs: future stem",
+    "back": "drop the final -e: vendre→vendr-, prendre→prendr-, mettre→mettr-",
+    "example": "Je vendrai la voiture demain.",
+    "exampleTranslation": "I will sell the car tomorrow.",
+    "tags": [
+      "formation",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc104",
+    "topicId": "futur-simple",
+    "front": "être future stem (irregular)",
+    "back": "ser-: je serai, tu seras, il sera...",
+    "example": "Nous serons à Atlantic Hotel après les examens.",
+    "exampleTranslation": "We will be at Atlantic Hotel after the exams.",
+    "tags": [
+      "irregular",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc105",
+    "topicId": "futur-simple",
+    "front": "avoir future stem (irregular)",
+    "back": "aur-: j'aurai, tu auras, il aura...",
+    "example": "Quel âge auras-tu l'année prochaine ?",
+    "exampleTranslation": "How old will you be next year?",
+    "tags": [
+      "irregular",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc106",
+    "topicId": "futur-simple",
+    "front": "aller future stem (irregular)",
+    "back": "ir-: j'irai, tu iras, il ira...",
+    "example": "Nous irons à la piscine le lendemain pour nager.",
+    "exampleTranslation": "We will go to the pool the next day to swim.",
+    "tags": [
+      "irregular",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc107",
+    "topicId": "futur-simple",
+    "front": "faire future stem (irregular)",
+    "back": "fer-: je ferai, tu feras, il fera...",
+    "example": "Il fera beau demain.",
+    "exampleTranslation": "The weather will be nice tomorrow.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc108",
+    "topicId": "futur-simple",
+    "front": "venir future stem (irregular)",
+    "back": "viendr-: je viendrai, tu viendras, il viendra...",
+    "example": "Le mois prochain, mes parents viendront me rendre visite.",
+    "exampleTranslation": "Next month, my parents will come to visit me.",
+    "tags": [
+      "irregular",
+      "exam-2021"
+    ]
+  },
+  {
+    "id": "fc109",
+    "topicId": "futur-simple",
+    "front": "savoir future stem (irregular)",
+    "back": "saur-: je saurai, tu sauras, il saura...",
+    "example": "Les étudiants sauront quand les examens vont commencer.",
+    "exampleTranslation": "The students will know when the exams will start.",
+    "tags": [
+      "irregular",
+      "exam-2021"
+    ]
+  },
+  {
+    "id": "fc110",
+    "topicId": "futur-simple",
+    "front": "voir future stem (irregular)",
+    "back": "verr-: je verrai, tu verras, il verra...",
+    "example": "Je te verrai demain.",
+    "exampleTranslation": "I will see you tomorrow.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc111",
+    "topicId": "futur-simple",
+    "front": "pouvoir future stem (irregular)",
+    "back": "pourr-: je pourrai, tu pourras, il pourra...",
+    "example": "Tu pourras venir me voir après les cours.",
+    "exampleTranslation": "You will be able to come see me after class.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc112",
+    "topicId": "futur-simple",
+    "front": "devoir future stem (irregular)",
+    "back": "devr-: je devrai, tu devras, il devra...",
+    "example": "Vous devrez travailler dur.",
+    "exampleTranslation": "You will have to work hard.",
+    "tags": [
+      "irregular"
+    ]
+  },
+  {
+    "id": "fc113",
+    "topicId": "futur-simple",
+    "front": "danser: regular -er future",
+    "back": "je danserai, ils danseront",
+    "example": "Les enfants danseront demain avec les fées.",
+    "exampleTranslation": "The children will dance tomorrow with the fairies.",
+    "tags": [
+      "conjugation",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc114",
+    "topicId": "futur-simple",
+    "front": "arriver: regular -er future",
+    "back": "il/elle arrivera",
+    "example": "Mon frère arrivera demain par le train de 15 heures.",
+    "exampleTranslation": "My brother will arrive tomorrow by the 3pm train.",
+    "tags": [
+      "conjugation",
+      "exam-2021"
+    ]
+  },
+  {
+    "id": "fc115",
+    "topicId": "futur-simple",
+    "front": "manger: regular -er future",
+    "back": "nous mangerons, ils mangeront",
+    "example": "Les travailleurs mangeront bien à leur faim.",
+    "exampleTranslation": "The workers will eat well to their fill.",
+    "tags": [
+      "conjugation",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc116",
+    "topicId": "futur-simple",
+    "front": "Future time expressions",
+    "back": "demain, après-demain, bientôt, la semaine prochaine, l'année prochaine",
+    "example": "L'année prochaine, mes parents viendront.",
+    "exampleTranslation": "Next year, my parents will come.",
+    "tags": [
+      "trigger-words",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc117",
+    "topicId": "futur-simple",
+    "front": "Past time expressions (contrast)",
+    "back": "hier, avant-hier, la semaine dernière, l'année dernière, déjà",
+    "example": "Hier, j'ai travaillé. / Demain, je travaillerai.",
+    "exampleTranslation": "Yesterday I worked. / Tomorrow I will work.",
+    "tags": [
+      "trigger-words",
+      "comparison"
+    ]
+  },
+  {
+    "id": "fc118",
+    "topicId": "futur-simple",
+    "front": "aller + infinitive (near future, contrast)",
+    "back": "different from futur simple: expresses immediate/planned future",
+    "example": "Je vais manger. (near future) vs. Je mangerai. (simple future)",
+    "exampleTranslation": "I am going to eat. vs. I will eat.",
+    "tags": [
+      "comparison"
+    ]
+  },
+  {
+    "id": "fc119",
+    "topicId": "transport",
+    "front": "Comment voyage-t-il/elle ?",
+    "back": "How does he/she travel?",
+    "example": "Comment voyage-t-il ? Il prend le bus.",
+    "exampleTranslation": "How does he travel? He takes the bus.",
+    "tags": [
+      "question"
+    ]
+  },
+  {
+    "id": "fc120",
+    "topicId": "transport",
+    "front": "à pied",
+    "back": "on foot",
+    "example": "Kofi va au village à pied.",
+    "exampleTranslation": "Kofi goes to the village on foot.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc121",
+    "topicId": "transport",
+    "front": "à vélo / à bicyclette",
+    "back": "by bicycle",
+    "example": "Maman va au marché à vélo.",
+    "exampleTranslation": "Mom goes to the market by bike.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc122",
+    "topicId": "transport",
+    "front": "à moto",
+    "back": "by motorbike",
+    "example": "Kofi va en Côte d'Ivoire à moto.",
+    "exampleTranslation": "Kofi goes to Côte d'Ivoire by motorbike.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc123",
+    "topicId": "transport",
+    "front": "à cheval",
+    "back": "by horse",
+    "example": "Les sénégalais traversent le désert à dos de chameau.",
+    "exampleTranslation": "The Senegalese cross the desert by camel.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc124",
+    "topicId": "transport",
+    "front": "à dos de chameau",
+    "back": "by camel",
+    "example": "Pour traverser le Sahara, les touristes préfèrent voyager à dos de chameau.",
+    "exampleTranslation": "To cross the Sahara, tourists prefer to travel by camel.",
+    "tags": [
+      "mode",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc125",
+    "topicId": "transport",
+    "front": "en voiture",
+    "back": "by car",
+    "example": "Papa va au village en voiture.",
+    "exampleTranslation": "Dad goes to the village by car.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc126",
+    "topicId": "transport",
+    "front": "en bus / en autobus",
+    "back": "by bus",
+    "example": "La famille de Kwami va au Libéria en bus.",
+    "exampleTranslation": "Kwami's family goes to Liberia by bus.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc127",
+    "topicId": "transport",
+    "front": "en train / par le train",
+    "back": "by train",
+    "example": "Les commerçants vont à Kumasi en train.",
+    "exampleTranslation": "The traders go to Kumasi by train.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc128",
+    "topicId": "transport",
+    "front": "en avion / par avion",
+    "back": "by plane",
+    "example": "Claire va en France par avion.",
+    "exampleTranslation": "Claire goes to France by plane.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc129",
+    "topicId": "transport",
+    "front": "en bateau",
+    "back": "by boat",
+    "example": "Les marocains traversent la Méditerranée en bateau.",
+    "exampleTranslation": "Moroccans cross the Mediterranean by boat.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc130",
+    "topicId": "transport",
+    "front": "en pirogue",
+    "back": "by canoe",
+    "example": "Les villageois traversent le fleuve en pirogue.",
+    "exampleTranslation": "The villagers cross the river by canoe.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc131",
+    "topicId": "transport",
+    "front": "en métro",
+    "back": "by subway/metro",
+    "example": "Je préfère aller en métro.",
+    "exampleTranslation": "I prefer to go by subway.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc132",
+    "topicId": "transport",
+    "front": "en hélicoptère / par hélicoptère",
+    "back": "by helicopter",
+    "example": "Pour inspecter le site minier, le directeur se déplace en hélicoptère.",
+    "exampleTranslation": "To inspect the mine site, the director travels by helicopter.",
+    "tags": [
+      "mode",
+      "exam-2024-90obj"
+    ]
+  },
+  {
+    "id": "fc133",
+    "topicId": "transport",
+    "front": "en camion",
+    "back": "by lorry/truck",
+    "example": "L'avion transporte des marchandises. Le camion aussi.",
+    "exampleTranslation": "The plane carries goods. So does the truck.",
+    "tags": [
+      "mode"
+    ]
+  },
+  {
+    "id": "fc134",
+    "topicId": "transport",
+    "front": "Rule: à vs en for transport",
+    "back": "à = you're ON/astride it (à pied, à vélo, à moto, à cheval); en/par = you're INSIDE it (en voiture, en train, en bus, en avion)",
+    "example": "Il va à moto. / Il va en voiture.",
+    "exampleTranslation": "He goes by motorbike. / He goes by car.",
+    "tags": [
+      "core-rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc135",
+    "topicId": "transport",
+    "front": "l'avion (riddle vocab)",
+    "back": "the plane — 'Je vole dans le ciel comme les oiseaux et je transporte des marchandises et les personnes.'",
+    "example": "Qui suis-je ? — C'est l'avion.",
+    "exampleTranslation": "Who am I? — It's the plane.",
+    "tags": [
+      "riddle",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc136",
+    "topicId": "transport",
+    "front": "aller / venir / voyager + mode",
+    "back": "the three main verbs used with transport expressions",
+    "example": "On voyage/va/vient en bateau.",
+    "exampleTranslation": "One travels/goes/comes by boat.",
+    "tags": [
+      "structure"
+    ]
+  },
+  {
+    "id": "fc137",
+    "topicId": "prepositions",
+    "front": "à + masculine country",
+    "back": "au: au Ghana, au Togo, au Sénégal",
+    "example": "Mon père est douanier. Il travaille entre le Ghana et le Togo.",
+    "exampleTranslation": "My father is a customs officer. He works between Ghana and Togo.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc138",
+    "topicId": "prepositions",
+    "front": "à + feminine/vowel-starting country",
+    "back": "en: en France, en Côte d'Ivoire, en Angleterre",
+    "example": "Les professeurs vont partir aux États-Unis après l'examen.",
+    "exampleTranslation": "The professors will leave for the United States after the exam.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc139",
+    "topicId": "prepositions",
+    "front": "à + plural country",
+    "back": "aux: aux États-Unis, aux Pays-Bas",
+    "example": "Ils vont partir aux Etats-Unis.",
+    "exampleTranslation": "They will leave for the United States.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc140",
+    "topicId": "prepositions",
+    "front": "chez",
+    "back": "at the place of (a person) — chez le médecin, chez moi",
+    "example": "Mme cherche de la viande. Elle va donc chez le boucher.",
+    "exampleTranslation": "Madam wants meat. So she goes to the butcher's.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc141",
+    "topicId": "prepositions",
+    "front": "à + definite article contractions",
+    "back": "à + le = au; à + les = aux; à + la = à la; à + l' = à l'",
+    "example": "Samuel a très mal au ventre.",
+    "exampleTranslation": "Samuel has a bad stomach ache.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc142",
+    "topicId": "prepositions",
+    "front": "par",
+    "back": "through/via — used for passing through a place",
+    "example": "En voyageant d'Accra à Paris, nous sommes passés par Casablanca.",
+    "exampleTranslation": "Travelling from Accra to Paris, we passed through Casablanca.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc143",
+    "topicId": "prepositions",
+    "front": "à travers",
+    "back": "across/through (a space, not a stop-over city)",
+    "example": "Ils ont voyagé à travers le désert.",
+    "exampleTranslation": "They travelled across the desert.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc144",
+    "topicId": "prepositions",
+    "front": "dans",
+    "back": "in/inside (a defined space)",
+    "example": "Il y a beaucoup d'objets tranchants sur le site.",
+    "exampleTranslation": "There are many sharp objects on the site.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc145",
+    "topicId": "prepositions",
+    "front": "entre",
+    "back": "between",
+    "example": "Il travaille entre le Ghana et le Togo.",
+    "exampleTranslation": "He works between Ghana and Togo.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc146",
+    "topicId": "prepositions",
+    "front": "avec",
+    "back": "with",
+    "example": "L'ingénieur travaille avec ses collègues sur le chantier.",
+    "exampleTranslation": "The engineer works with his colleagues on the site.",
+    "tags": [
+      "rule"
+    ]
+  },
+  {
+    "id": "fc147",
+    "topicId": "prepositions",
+    "front": "à + body part (avoir mal à)",
+    "back": "au/à la/à l'/aux + body part = to have pain there",
+    "example": "Samuel a très mal au ventre. / La demoiselle a mal aux dents.",
+    "exampleTranslation": "Samuel has a stomach ache. / The young lady has a toothache.",
+    "tags": [
+      "expression",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc148",
+    "topicId": "prepositions",
+    "front": "aller chez + profession",
+    "back": "to go to see a professional (doctor, dentist, baker...)",
+    "example": "Elle va chez le dentiste pour se faire soigner.",
+    "exampleTranslation": "She goes to the dentist to get treated.",
+    "tags": [
+      "expression",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc149",
+    "topicId": "prepositions",
+    "front": "travailler chez + company name",
+    "back": "to work at (a company)",
+    "example": "Cet ingénieur travaille chez TULLOW.",
+    "exampleTranslation": "This engineer works at TULLOW.",
+    "tags": [
+      "expression",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc150",
+    "topicId": "outils-epi",
+    "front": "un casque de sécurité",
+    "back": "a safety helmet — protège la tête contre les chutes d'objets",
+    "example": "Le casque de sécurité sert à protéger la tête contre les blessures.",
+    "exampleTranslation": "The safety helmet protects the head against injuries.",
+    "tags": [
+      "ppe",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc151",
+    "topicId": "outils-epi",
+    "front": "des lunettes de sécurité / de protection",
+    "back": "safety goggles — protègent les yeux contre la poussière et les rayonnements",
+    "example": "En tant qu'ingénieur, il faut porter les lunettes de sécurité avant de commencer le travail.",
+    "exampleTranslation": "As an engineer, you must wear safety glasses before starting work.",
+    "tags": [
+      "ppe",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc152",
+    "topicId": "outils-epi",
+    "front": "des gants de sécurité",
+    "back": "safety gloves — protègent les mains et les doigts contre les coupures et la chaleur",
+    "example": "Ils sont portés pour protéger la main et les doigts.",
+    "exampleTranslation": "They are worn to protect the hand and fingers.",
+    "tags": [
+      "ppe",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc153",
+    "topicId": "outils-epi",
+    "front": "des bottes / chaussures de sécurité",
+    "back": "safety boots/shoes — protègent les pieds contre les objets pointus ou lourds",
+    "example": "Vous devez porter des bottes de sécurité pour protéger vos pieds.",
+    "exampleTranslation": "You must wear safety boots to protect your feet.",
+    "tags": [
+      "ppe",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc154",
+    "topicId": "outils-epi",
+    "front": "le bouchon d'oreille",
+    "back": "earplug — protège l'oreille",
+    "example": "Le bouchon d'oreille sert à protéger l'oreille.",
+    "exampleTranslation": "The earplug protects the ear.",
+    "tags": [
+      "ppe",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc155",
+    "topicId": "outils-epi",
+    "front": "un gilet de signalisation / de haut visibilité",
+    "back": "a high-visibility vest",
+    "example": "Le gilet de signalisation permet de bien voir le travailleur sur le site.",
+    "exampleTranslation": "The hi-vis vest lets the worker be seen well on site.",
+    "tags": [
+      "ppe"
+    ]
+  },
+  {
+    "id": "fc156",
+    "topicId": "outils-epi",
+    "front": "un masque (de protection)",
+    "back": "a protective mask — pour respirer proprement / se protéger de la poussière",
+    "example": "On porte un masque pour se protéger de la poussière.",
+    "exampleTranslation": "One wears a mask to protect against dust.",
+    "tags": [
+      "ppe"
+    ]
+  },
+  {
+    "id": "fc157",
+    "topicId": "outils-epi",
+    "front": "une ceinture de sécurité",
+    "back": "a safety belt/harness",
+    "example": "L'ingénieur porte une ceinture de sécurité en hauteur.",
+    "exampleTranslation": "The engineer wears a safety harness at height.",
+    "tags": [
+      "ppe"
+    ]
+  },
+  {
+    "id": "fc158",
+    "topicId": "outils-epi",
+    "front": "un tournevis",
+    "back": "a screwdriver — sert à fixer ou retirer les vis",
+    "example": "Il est utilisé pour fixer ou retirer les vis.",
+    "exampleTranslation": "It is used to tighten or remove screws.",
+    "tags": [
+      "tool",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc159",
+    "topicId": "outils-epi",
+    "front": "un marteau",
+    "back": "a hammer — sert à enfoncer un clou",
+    "example": "Je frappe pour enfoncer des clous. Je suis un marteau.",
+    "exampleTranslation": "I strike to drive in nails. I am a hammer.",
+    "tags": [
+      "tool",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc160",
+    "topicId": "outils-epi",
+    "front": "une clé à molette",
+    "back": "an adjustable wrench — sert à serrer et desserrer les boulons et les écrous",
+    "example": "Je sers à serrer et à desserrer les boulons et les écrous. Je suis une clé à molette.",
+    "exampleTranslation": "I am used to tighten and loosen bolts and nuts. I am an adjustable wrench.",
+    "tags": [
+      "tool",
+      "exam-2024-90obj"
+    ]
+  },
+  {
+    "id": "fc161",
+    "topicId": "outils-epi",
+    "front": "une perceuse",
+    "back": "a drill — sert à percer des trous dans le métal, le bois ou le béton",
+    "example": "Je perce des trous dans le métal, le bois ou le béton. Je suis une perceuse.",
+    "exampleTranslation": "I drill holes in metal, wood or concrete. I am a drill.",
+    "tags": [
+      "tool",
+      "exam-2024-90obj"
+    ]
+  },
+  {
+    "id": "fc162",
+    "topicId": "outils-epi",
+    "front": "une scie circulaire",
+    "back": "a circular saw",
+    "example": "Une scie circulaire sert à couper le bois.",
+    "exampleTranslation": "A circular saw is used to cut wood.",
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "id": "fc163",
+    "topicId": "outils-epi",
+    "front": "une pince",
+    "back": "pliers — sert à mesurer les objets de grande précision (pince à mesurer) or to grip",
+    "example": "À quoi sert une pince ? Elle sert à mesurer avec précision.",
+    "exampleTranslation": "What is pliers used for? It's used to measure with precision.",
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "id": "fc164",
+    "topicId": "outils-epi",
+    "front": "un excavateur / une excavatrice",
+    "back": "an excavator — sert à creuser le sol",
+    "example": "À quoi sert un excavateur ? Il sert à creuser le sol.",
+    "exampleTranslation": "What is an excavator used for? It's used to dig the ground.",
+    "tags": [
+      "tool",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc165",
+    "topicId": "outils-epi",
+    "front": "le convoyeur",
+    "back": "the conveyor — nous aide à transporter des fardeaux d'une place à une autre",
+    "example": "Le convoyeur nous aide à transporter des fardeaux.",
+    "exampleTranslation": "The conveyor helps us transport loads.",
+    "tags": [
+      "tool",
+      "exam-2025"
+    ]
+  },
+  {
+    "id": "fc166",
+    "topicId": "outils-epi",
+    "front": "le concasseur",
+    "back": "the crusher (mining equipment)",
+    "example": "Le concasseur écrase les roches minières.",
+    "exampleTranslation": "The crusher crushes mining rocks.",
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "id": "fc167",
+    "topicId": "outils-epi",
+    "front": "le tamis",
+    "back": "the sieve",
+    "example": "Le tamis sert à filtrer les matériaux.",
+    "exampleTranslation": "The sieve is used to filter materials.",
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "id": "fc168",
+    "topicId": "outils-epi",
+    "front": "un stylo",
+    "back": "a pen — sert à écrire",
+    "example": "Pour écrire, on utilise souvent un stylo.",
+    "exampleTranslation": "To write, one often uses a pen.",
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "id": "fc169",
+    "topicId": "outils-epi",
+    "front": "le voltmètre",
+    "back": "the voltmeter — utilisé pour mesurer les tensions dans les circuits",
+    "example": "Il est utilisé dans la conception et l'analyse des circuits pour mesurer les tensions.",
+    "exampleTranslation": "It is used in circuit design and analysis to measure voltages.",
+    "tags": [
+      "tool",
+      "engineering"
+    ]
+  },
+  {
+    "id": "fc170",
+    "topicId": "outils-epi",
+    "front": "une torche",
+    "back": "a torch/flashlight — on l'utilise pour s'éclairer",
+    "example": "On utilise une torche pour s'éclairer.",
+    "exampleTranslation": "One uses a torch to light the way.",
+    "tags": [
+      "tool"
+    ]
+  },
+  {
+    "id": "fc171",
+    "topicId": "outils-epi",
+    "front": "à quoi sert...? / il/elle sert à...",
+    "back": "what is ... used for? / it is used to...",
+    "example": "À quoi sert un tournevis ? Il sert à fixer des vis.",
+    "exampleTranslation": "What is a screwdriver used for? It is used to fix screws.",
+    "tags": [
+      "structure",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc172",
+    "topicId": "negation-nombres",
+    "front": "Basic negation: ne...pas",
+    "back": "wraps around the conjugated verb",
+    "example": "Je ne parle pas Hausa.",
+    "exampleTranslation": "I don't speak Hausa.",
+    "tags": [
+      "core-rule"
+    ]
+  },
+  {
+    "id": "fc173",
+    "topicId": "negation-nombres",
+    "front": "Negation in passé composé",
+    "back": "ne + auxiliary (avoir/être) + pas + past participle",
+    "example": "Mes parents ne sont pas arrivés à Tarkwa.",
+    "exampleTranslation": "My parents have not arrived in Tarkwa.",
+    "tags": [
+      "rule",
+      "exam-frequent"
+    ]
+  },
+  {
+    "id": "fc174",
+    "topicId": "negation-nombres",
+    "front": "Negation with reflexive verbs",
+    "back": "ne + me/te/se... + auxiliary + pas + past participle",
+    "example": "Mes tantes ne se sont pas promenées en ville.",
+    "exampleTranslation": "My aunts did not walk around town.",
+    "tags": [
+      "rule",
+      "trap",
+      "exam-2024-90obj"
+    ]
+  },
+  {
+    "id": "fc175",
+    "topicId": "negation-nombres",
+    "front": "Common negation trap",
+    "back": "WRONG: 'ne sont arrivés pas' / 'pas ne sont arrivés' — pas goes right after the auxiliary",
+    "example": "CORRECT: ne sont pas arrivés.",
+    "exampleTranslation": "have not arrived",
+    "tags": [
+      "trap",
+      "exam-2021"
+    ]
+  },
+  {
+    "id": "fc176",
+    "topicId": "negation-nombres",
+    "front": "quatre-vingt-treize",
+    "back": "93",
+    "example": "Il y a quatre-vingt-treize étudiants dans la classe.",
+    "exampleTranslation": "There are 93 students in the class.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc177",
+    "topicId": "negation-nombres",
+    "front": "soixante et onze",
+    "back": "71",
+    "example": "Le vieux monsieur a soixante et onze ans.",
+    "exampleTranslation": "The old man is 71 years old.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc178",
+    "topicId": "negation-nombres",
+    "front": "soixante-dix-huit",
+    "back": "78",
+    "example": "Elle habite au numéro soixante-dix-huit.",
+    "exampleTranslation": "She lives at number 78.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc179",
+    "topicId": "negation-nombres",
+    "front": "cent dix-neuf",
+    "back": "119",
+    "example": "Le prix est cent dix-neuf cedis.",
+    "exampleTranslation": "The price is 119 cedis.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc180",
+    "topicId": "negation-nombres",
+    "front": "deux cent soixante et un",
+    "back": "261",
+    "example": "Ma chambre est la numéro deux cent soixante et un.",
+    "exampleTranslation": "My room is number 261.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc181",
+    "topicId": "negation-nombres",
+    "front": "neuf cent soixante dix-neuf",
+    "back": "979",
+    "example": "Le livre coûte neuf cent soixante dix-neuf cedis.",
+    "exampleTranslation": "The book costs 979 cedis.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc182",
+    "topicId": "negation-nombres",
+    "front": "vingt-six",
+    "back": "26",
+    "example": "J'ai vingt-six ans.",
+    "exampleTranslation": "I am 26 years old.",
+    "tags": [
+      "number"
+    ]
+  },
+  {
+    "id": "fc183",
+    "topicId": "negation-nombres",
+    "front": "quatre-vingts / quatre-vingt-dix",
+    "back": "80 / 90",
+    "example": "Il a quatre-vingts ans. Elle a quatre-vingt-dix ans.",
+    "exampleTranslation": "He is 80. She is 90.",
+    "tags": [
+      "number"
+    ]
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "se-presenter",
+    "title": "Se présenter",
+    "titleEn": "Introducing Yourself",
+    "icon": "🪪",
+    "weight": "high",
+    "description": "Fiche d'identité, giving your name, age, nationality, profession, marital status — a guaranteed Section B on every past paper.",
+    "examTags": ["Fiche d'identité form", "Comprehension passages", "Translation"]
+  },
+  {
+    "id": "heure",
+    "title": "L'heure",
+    "titleEn": "Telling Time",
+    "icon": "🕒",
+    "weight": "high",
+    "description": "Converting between the 24-hour clock and spoken French time. Appears in nearly every past paper, often 4-6 questions.",
+    "examTags": ["MCQ time conversion", "moins le quart / et quart / et demie"]
+  },
+  {
+    "id": "adjectifs",
+    "title": "Les adjectifs qualificatifs",
+    "titleEn": "Descriptive Adjectives",
+    "icon": "🎨",
+    "weight": "high",
+    "description": "Gender and number agreement of adjectives, including irregular forms and feminine forms of professions.",
+    "examTags": ["Agreement MCQs", "Profession genders"]
+  },
+  {
+    "id": "passe-compose",
+    "title": "Le passé composé",
+    "titleEn": "The Past Tense (Present Perfect)",
+    "icon": "⏮️",
+    "weight": "high",
+    "description": "Avoir vs être auxiliary verbs, DR & MRS VANDERTRAMP verbs, reflexive verbs, and past participle agreement.",
+    "examTags": ["Fill-in-the-blank conjugation", "MCQ auxiliary choice", "Agreement of participles"]
+  },
+  {
+    "id": "imparfait",
+    "title": "L'imparfait",
+    "titleEn": "The Imperfect Tense",
+    "icon": "🔁",
+    "weight": "medium",
+    "description": "Describing ongoing/habitual past actions and states. Formed from the nous-stem of the present tense.",
+    "examTags": ["Conjugation fill-ins", "MCQ verb forms"]
+  },
+  {
+    "id": "futur-simple",
+    "title": "Le futur simple",
+    "titleEn": "The Simple Future Tense",
+    "icon": "⏭️",
+    "weight": "high",
+    "description": "Future stems (regular and irregular) plus the six future endings. Frequently tested with time expressions like 'demain' and 'la semaine prochaine'.",
+    "examTags": ["Conjugation MCQs", "Irregular stems"]
+  },
+  {
+    "id": "transport",
+    "title": "Les moyens de transport",
+    "titleEn": "Means of Transport",
+    "icon": "🚗",
+    "weight": "medium",
+    "description": "Vocabulary for transport plus the tricky à/en/par choice depending on the mode of transport.",
+    "examTags": ["à vs en MCQs", "Vocabulary matching"]
+  },
+  {
+    "id": "prepositions",
+    "title": "Prépositions de lieu",
+    "titleEn": "Prepositions of Place",
+    "icon": "📍",
+    "weight": "high",
+    "description": "à, au, à la, à l', aux, chez, en, dans, par — the single most common MCQ trap on every paper.",
+    "examTags": ["Fill-in prepositions", "Country/city rules"]
+  },
+  {
+    "id": "outils-epi",
+    "title": "Outils & équipements de protection",
+    "titleEn": "Tools & Safety Equipment",
+    "icon": "🛠️",
+    "weight": "high",
+    "description": "Engineering tools and personal protective equipment (PPE), and matching each tool to its function — a fixed Section A/C on recent papers.",
+    "examTags": ["Function-matching table", "MCQ vocabulary"]
+  },
+  {
+    "id": "negation-nombres",
+    "title": "Négation & nombres",
+    "titleEn": "Negation & Numbers",
+    "icon": "🔢",
+    "weight": "medium",
+    "description": "Correct word order for ne...pas (including in passé composé and with reflexive verbs), plus writing numbers in figures.",
+    "examTags": ["MCQ word order", "Numbers in figures"]
+  }
+]

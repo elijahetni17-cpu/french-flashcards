@@ -1,0 +1,40 @@
+{
+  "questions": [
+    ["Comment va-t-il/elle ?", "How does he/she go?"],
+    ["Quel moyen de transport prend-il/elle ?", "What means of transport does he/she take?"],
+    ["Il/elle voyage comment ?", "How does he/she travel?"],
+    ["Quel moyen de transport prends-tu / prenez-vous ?", "What transport do you take?"]
+  ],
+  "modes": [
+    { "french": "à pied", "english": "on foot", "preposition": "à" },
+    { "french": "à vélo / à bicyclette", "english": "by bicycle", "preposition": "à" },
+    { "french": "à moto", "english": "by motorbike", "preposition": "à" },
+    { "french": "à cheval", "english": "by horse", "preposition": "à" },
+    { "french": "à dos de chameau", "english": "by camel", "preposition": "à dos de" },
+    { "french": "en voiture", "english": "by car", "preposition": "en" },
+    { "french": "en taxi", "english": "by taxi", "preposition": "en" },
+    { "french": "en bus / en autobus", "english": "by bus", "preposition": "en" },
+    { "french": "en camion", "english": "by lorry/truck", "preposition": "en" },
+    { "french": "en train / par le train", "english": "by train", "preposition": "en / par" },
+    { "french": "en métro", "english": "by subway", "preposition": "en" },
+    { "french": "en avion / par avion", "english": "by plane", "preposition": "en / par" },
+    { "french": "en hélicoptère / par hélicoptère", "english": "by helicopter", "preposition": "en / par" },
+    { "french": "en bateau", "english": "by boat", "preposition": "en" },
+    { "french": "en navire", "english": "by ship", "preposition": "en" },
+    { "french": "en pirogue", "english": "by canoe", "preposition": "en" }
+  ],
+  "usefulVerbs": ["voyager (to travel)", "aller (to go)", "venir (to come)", "prendre (to take)", "se déplacer (to move around/get about)"],
+  "usefulSentences": [
+    ["Claire va en France par avion. Elle prend l'avion.", "Claire goes to France by plane. She takes the plane."],
+    ["Kofi va en Côte d'Ivoire à moto. Il prend la moto.", "Kofi goes to Côte d'Ivoire by motorbike."],
+    ["La famille de Kwami va au Libéria en bus.", "Kwami's family goes to Liberia by bus."],
+    ["Papa va au village en voiture.", "Dad goes to the village by car."],
+    ["Les marocains traversent la Méditerranée en bateau.", "Moroccans cross the Mediterranean by boat."],
+    ["Les commerçants vont à Kumasi en train.", "The traders go to Kumasi by train."],
+    ["Kofi va au village à pied.", "Kofi goes to the village on foot."],
+    ["Les villageois traversent le fleuve en pirogue.", "The villagers cross the river by canoe."],
+    ["Les sénégalais traversent le désert à dos de chameau.", "The Senegalese cross the desert by camel."],
+    ["Maman va au marché à vélo.", "Mom goes to the market by bike."],
+    ["Pour inspecter le site minier, le directeur se déplace en hélicoptère.", "To inspect the mine site, the director travels by helicopter."]
+  ]
+}

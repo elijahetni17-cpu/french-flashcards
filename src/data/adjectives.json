@@ -1,0 +1,51 @@
+{
+  "coreRule": "Adjectives agree with the noun/pronoun they describe in GENDER (masculine/feminine) and NUMBER (singular/plural).",
+  "generalRule": {
+    "rule": "Add -e to the masculine singular form to get the feminine singular.",
+    "examples": [["grand", "grande"], ["petit", "petite"], ["méchant", "méchante"], ["noir", "noire"], ["content", "contente"]]
+  },
+  "endingPatterns": [
+    { "masculineEnding": "-e", "feminineEnding": "-e (no change)", "examples": [["jeune", "jeune"], ["rouge", "rouge"], ["jaune", "jaune"], ["mince", "mince"], ["drôle", "drôle"]] },
+    { "masculineEnding": "-é", "feminineEnding": "-ée", "examples": [["marié", "mariée"], ["enchanté", "enchantée"]] },
+    { "masculineEnding": "-on", "feminineEnding": "-onne", "examples": [["bon", "bonne"], ["mignon", "mignonne"]] },
+    { "masculineEnding": "-eux", "feminineEnding": "-euse", "examples": [["heureux", "heureuse"], ["sérieux", "sérieuse"], ["joyeux", "joyeuse"], ["dangereux", "dangereuse"]] },
+    { "masculineEnding": "-if", "feminineEnding": "-ive", "examples": [["actif", "active"], ["agressif", "agressive"], ["productif", "productive"]] },
+    { "masculineEnding": "-er", "feminineEnding": "-ère", "examples": [["étranger", "étrangère"], ["particulier", "particulière"]] },
+    { "masculineEnding": "-c", "feminineEnding": "-que", "examples": [["public", "publique"], ["laïc", "laïque"]] },
+    { "masculineEnding": "-il", "feminineEnding": "-ille", "examples": [["gentil", "gentille"]] },
+    { "masculineEnding": "-anc", "feminineEnding": "-anche", "examples": [["blanc", "blanche"]] },
+    { "masculineEnding": "-os", "feminineEnding": "-osse", "examples": [["gros", "grosse"]] }
+  ],
+  "irregular": [
+    ["beau", "belle"], ["nouveau", "nouvelle"], ["vieux", "vieille"], ["favori", "favorite"],
+    ["doux", "douce"], ["jaloux", "jalouse"], ["faux", "fausse"], ["long", "longue"], ["frais", "fraîche"]
+  ],
+  "beforeVowelSound": {
+    "note": "beau→bel, nouveau→nouvel, vieux→vieil are used before a MASCULINE SINGULAR noun starting with a vowel sound.",
+    "examples": [["un bel homme", "a handsome man"], ["un nouvel élève", "a new pupil"], ["un vieil ami", "an old friend"], ["un beau garçon", "a handsome boy (consonant start)"]]
+  },
+  "pluralFormation": {
+    "rule": "Generally add -s to the singular adjective (masc. or fem.).",
+    "examples": [["grand", "grands"], ["grande", "grandes"], ["heureux", "heureux (already ends in -x, no change)"], ["nouveau", "nouveaux"]]
+  },
+  "professionsFeminineForms": [
+    { "pattern": "default: add -e", "examples": [["avocat", "avocate"], ["marchand", "marchande"], ["étudiant", "étudiante"]] },
+    { "pattern": "already ends in -e: no change", "examples": [["journaliste", "journaliste"], ["artiste", "artiste"], ["élève", "élève"]] },
+    { "pattern": "-eur → -euse", "examples": [["chanteur", "chanteuse"], ["vendeur", "vendeuse"]] },
+    { "pattern": "-teur → -trice", "examples": [["directeur", "directrice"], ["conducteur", "conductrice"]] },
+    { "pattern": "-er → -ère", "examples": [["boulanger", "boulangère"], ["infirmier", "infirmière"]] },
+    { "pattern": "-ien → -ienne", "examples": [["musicien", "musicienne"], ["mécanicien", "mécanicienne"], ["technicien", "technicienne"]] },
+    { "pattern": "irregular", "examples": [["ingénieur", "ingénieure"], ["docteur", "docteure"]] }
+  ],
+  "descriptivePairs": [
+    ["petit", "petite", "small"], ["grand", "grande", "tall/big"], ["fort", "forte", "strong"],
+    ["mince", "mince", "slim"], ["beau", "belle", "handsome/beautiful"], ["gentil", "gentille", "kind"],
+    ["méchant", "méchante", "mean"], ["doux", "douce", "gentle/soft"], ["intelligent", "intelligente", "intelligent"],
+    ["mauvais", "mauvaise", "bad"], ["mignon", "mignonne", "cute"], ["gros", "grosse", "fat/big"],
+    ["laid", "laide", "ugly"], ["long", "longue", "long"], ["heureux", "heureuse", "happy"],
+    ["dangereux", "dangereuse", "dangerous"], ["jeune", "jeune", "young"], ["rouge", "rouge", "red"],
+    ["jaune", "jaune", "yellow"], ["court", "courte", "short"], ["vieux", "vieille", "old"],
+    ["nouveau", "nouvelle", "new"], ["favori", "favorite", "favourite"], ["sérieux", "sérieuse", "serious"],
+    ["souriant", "souriante", "smiling"], ["sentimental", "sentimentale", "sentimental"]
+  ]
+}

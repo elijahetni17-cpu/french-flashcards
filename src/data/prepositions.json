@@ -1,0 +1,41 @@
+{
+  "contractions": [
+    { "form": "à + le → au", "example": "au Ghana, au marché" },
+    { "form": "à + les → aux", "example": "aux États-Unis, aux enfants" },
+    { "form": "à + la → à la (no contraction)", "example": "à la maison" },
+    { "form": "à + l' → à l' (no contraction)", "example": "à l'hôpital" }
+  ],
+  "countries": {
+    "rule": "en (feminine countries & countries starting with a vowel) / au (masculine countries) / aux (plural countries)",
+    "examples": [
+      ["en France", "feminine"], ["en Côte d'Ivoire", "feminine"], ["en Angleterre", "feminine"],
+      ["au Ghana", "masculine"], ["au Togo", "masculine"], ["au Sénégal", "masculine"], ["au Nigéria", "masculine"],
+      ["aux États-Unis", "plural"], ["aux Pays-Bas", "plural"]
+    ]
+  },
+  "chez": {
+    "meaning": "at/to the place of (a PERSON or a specific professional)",
+    "examples": ["chez le médecin (to the doctor's)", "chez le boucher (to the butcher's)", "chez moi (at my place)", "chez TULLOW (at the company TULLOW)"]
+  },
+  "par": {
+    "meaning": "through / via — passing through a place, or means (par avion, par le train)",
+    "examples": ["passer par Casablanca (pass through Casablanca)", "par avion (by air mail / by plane)"]
+  },
+  "enDansAvecEntre": [
+    { "word": "en", "meaning": "in / by (transport, months, materials, feminine countries)", "example": "en voiture, en France, en janvier" },
+    { "word": "dans", "meaning": "in / inside (a specific defined space)", "example": "dans la salle, dans le bureau" },
+    { "word": "avec", "meaning": "with", "example": "il travaille avec ses collègues" },
+    { "word": "entre", "meaning": "between", "example": "entre le Ghana et le Togo" },
+    { "word": "à travers", "meaning": "across / through (a whole space, no stop)", "example": "à travers le désert" }
+  ],
+  "avoirMal": {
+    "rule": "avoir mal à + body part (contracted)",
+    "examples": [["avoir mal au ventre", "masculine: au"], ["avoir mal à la tête", "feminine: à la"], ["avoir mal à l'oreille", "vowel start: à l'"], ["avoir mal aux dents", "plural: aux"]]
+  },
+  "transportPrepositions": {
+    "rule": "à = astride/on top of the vehicle; en/par = inside an enclosed vehicle",
+    "aExamples": ["à pied", "à vélo", "à moto", "à cheval", "à dos de chameau"],
+    "enExamples": ["en voiture", "en bus", "en train", "en avion", "en bateau", "en métro", "en pirogue"],
+    "note": "en/par are often interchangeable for train, avion, hélicoptère: en train / par le train."
+  }
+}

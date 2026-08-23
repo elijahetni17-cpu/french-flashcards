@@ -1,0 +1,91 @@
+[
+  {
+    "id": "cs1",
+    "title": "L'heure — 3 formulas that decide half the marks",
+    "points": [
+      "et quart = +15 min | et demie = +30 min | moins le quart = −15 min from the NEXT hour",
+      "'23h moins le quart' = 22h45, NOT 23h15 — the stated hour is always the upcoming one when using 'moins'",
+      "midi = 12h00 (noon) | minuit = 00h00 (midnight)"
+    ]
+  },
+  {
+    "id": "cs2",
+    "title": "Passé composé — pick the right auxiliary in 2 seconds",
+    "points": [
+      "être verbs: DR & MRS VANDERTRAMP (Devenir, Revenir, Monter, Retourner, Sortir, Venir, Aller, Naître, Descendre, Entrer, Rentrer, Tomber, Rester, Arriver, Mourir, Partir) + ALL reflexive verbs",
+      "Everything else takes avoir",
+      "être-verbs: past participle AGREES with the subject (allé/allée/allés/allées). avoir-verbs: NO agreement with the subject.",
+      "Trap: sortir/descendre/monter WITH a direct object switch to avoir and change meaning (elle a sorti un mouchoir)."
+    ]
+  },
+  {
+    "id": "cs3",
+    "title": "Adjective agreement — the fast checklist",
+    "points": [
+      "Default: add -e for feminine, -s for plural",
+      "-eux → -euse | -on → -onne | -if → -ive | -er → -ère | -c → -que",
+      "Irregular to memorise: beau/belle, nouveau/nouvelle, vieux/vieille, favori/favorite, doux/douce",
+      "Mixed-gender group (e.g. 'Michael et Juliet') → masculine plural wins"
+    ]
+  },
+  {
+    "id": "cs4",
+    "title": "Futur simple — same 6 endings, different stems",
+    "points": [
+      "Endings never change: -ai, -as, -a, -ons, -ez, -ont",
+      "-ER/-IR verbs: keep the full infinitive as the stem",
+      "-RE verbs: drop the final -e",
+      "Irregular stems to memorise: être→ser-, avoir→aur-, aller→ir-, faire→fer-, venir→viendr-, savoir→saur-, pouvoir→pourr-, devoir→devr-, voir→verr-"
+    ]
+  },
+  {
+    "id": "cs5",
+    "title": "Imparfait — one formation rule covers everything",
+    "points": [
+      "Take the NOUS form of the present tense, drop -ons, add -ais/-ais/-ait/-ions/-iez/-aient",
+      "Only true exception: être → j'étais (irregular stem ét-)",
+      "-ger verbs (manger) keep the 'e' EXCEPT before -ions/-iez: nous mangions (not mangeions)",
+      "Trigger words: quand j'étais petit, auparavant, autrefois"
+    ]
+  },
+  {
+    "id": "cs6",
+    "title": "Prepositions — the single biggest trap category",
+    "points": [
+      "au (masc. country) / en (fem. country or vowel-start) / aux (plural country)",
+      "chez = to a PERSON's place (chez le médecin, chez moi)",
+      "par = passing through / by means of (passer par Casablanca, par avion)",
+      "avoir mal au/à la/à l'/aux + body part",
+      "Transport: à = astride (à pied, à vélo, à moto, à cheval) | en/par = enclosed (en voiture, en train, en avion)"
+    ]
+  },
+  {
+    "id": "cs7",
+    "title": "Negation word order",
+    "points": [
+      "Present tense: ne + verb + pas",
+      "Passé composé: ne + auxiliary + pas + past participle (pas goes right after the auxiliary, never after the participle)",
+      "Reflexive passé composé: ne + me/te/se... + auxiliary + pas + past participle"
+    ]
+  },
+  {
+    "id": "cs8",
+    "title": "Outils & EPI — function verbs to remember",
+    "points": [
+      "casque → protège la tête | lunettes → protègent les yeux | gants → protègent les mains",
+      "bottes → protègent les pieds | bouchon d'oreille → protège l'oreille | gilet → pour bien voir",
+      "tournevis → fixer/retirer des vis | marteau → enfoncer un clou | clé à molette → serrer/desserrer boulons",
+      "perceuse → percer des trous | excavateur → creuser le sol | convoyeur → transporter des fardeaux"
+    ]
+  },
+  {
+    "id": "cs9",
+    "title": "Se présenter — never lose these easy marks",
+    "points": [
+      "Nom = surname, Prénom = first name — don't mix them up",
+      "État civil answers: célibataire (invariable) / marié(e) / veuf-veuve / divorcé(e) / séparé(e)",
+      "Naître always takes être: 'Je suis né(e) en [year] à [place]'",
+      "Match the QUESTION type to the ANSWER type: nationalité → an adjective of origin, not a place name"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "questionsAndAnswers": [
+    ["Comment vous appelez-vous ? / Comment tu t'appelles ?", "Je m'appelle ..."],
+    ["Quel âge avez-vous ? / Quel âge as-tu ?", "J'ai ... ans."],
+    ["Où habitez-vous ? / Où habites-tu ?", "J'habite à ..."],
+    ["Quelle est votre nationalité ?", "Je suis ghanéen / ghanéenne."],
+    ["Quelle est votre profession ?", "Je suis étudiant / étudiante / ingénieur..."],
+    ["Quel est votre état civil ?", "Je suis célibataire / marié(e) / veuf / veuve / divorcé(e) / séparé(e)."],
+    ["Quel est votre programme d'étude ?", "J'étudie le Génie Minier / le Génie Civil / ..."],
+    ["Quelles langues parlez-vous ?", "Je parle français, anglais et twi."],
+    ["Quel est votre village natal ?", "Mon village natal est ..."]
+  ],
+  "ficheIdentiteFields": [
+    "Nom (surname)", "Prénom(s) (first name(s))", "Âge (age)", "Nationalité (nationality)",
+    "Profession (occupation)", "Programme d'étude (course of study)", "État civil (marital status)",
+    "Village natal (hometown)", "Adresse (address)", "Langues parlées (languages spoken)"
+  ],
+  "etatCivilOptions": [
+    ["célibataire", "single", "invariable (same for m. and f.)"],
+    ["marié / mariée", "married", "agrees with gender"],
+    ["veuf / veuve", "widower / widow", "agrees with gender"],
+    ["divorcé / divorcée", "divorced", "agrees with gender"],
+    ["séparé / séparée", "separated", "agrees with gender"]
+  ],
+  "sampleFicheIdentite": {
+    "Nom": "Appiah",
+    "Prénom(s)": "Francis",
+    "Âge": "25 ans",
+    "Nationalité": "Ghanéen",
+    "Profession": "Étudiant",
+    "Programme d'étude": "Génie pétrolier",
+    "État civil": "Célibataire"
+  },
+  "presentingSomeoneElse": {
+    "note": "Switch je→il/elle and adjust possessives (mon→son, ma→sa).",
+    "example": "Il s'appelle Kwame. Son nom de famille est Owusu et son prénom est Kwame. Il a 25 ans. Il habite à Bolga. Il étudie l'ingénierie pétrolière. Il est célibataire."
+  }
+}

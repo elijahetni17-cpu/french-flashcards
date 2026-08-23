@@ -1,0 +1,46 @@
+{
+  "coreFormulas": [
+    { "french": "il est [heure] heures", "meaning": "it is [hour] o'clock", "example": "Il est neuf heures. = 9h00" },
+    { "french": "...et quart", "meaning": "add 15 minutes", "example": "Il est neuf heures et quart. = 9h15" },
+    { "french": "...et demie", "meaning": "add 30 minutes", "example": "Il est neuf heures et demie. = 9h30" },
+    { "french": "...moins le quart", "meaning": "subtract 15 minutes from the NEXT hour", "example": "Il est dix heures moins le quart. = 9h45" },
+    { "french": "...moins vingt", "meaning": "subtract 20 minutes from the NEXT hour", "example": "Il est dix heures moins vingt. = 9h40" },
+    { "french": "midi", "meaning": "12:00 noon", "example": "Il est midi. = 12h00" },
+    { "french": "minuit", "meaning": "12:00 midnight", "example": "Il est minuit. = 00h00 / 24h00" }
+  ],
+  "criticalTip": "For 'moins' expressions: the STATED hour is the hour AFTER the actual time. Subtract the minutes from that stated hour. Example: 'vingt-trois heures moins le quart' = 23h00 − 15min = 22h45 (NOT 23h15).",
+  "timeOfDay": [
+    ["du matin", "in the morning (AM)"],
+    ["de l'après-midi", "in the afternoon (PM, roughly 12-18h)"],
+    ["du soir", "in the evening (PM, roughly 18-24h)"]
+  ],
+  "conversionTable": [
+    { "spoken": "une heure", "time24h": "01h00 / 13h00" },
+    { "spoken": "deux heures et quart", "time24h": "02h15 / 14h15" },
+    { "spoken": "trois heures et demie", "time24h": "03h30 / 15h30" },
+    { "spoken": "quatre heures moins le quart", "time24h": "03h45 / 15h45" },
+    { "spoken": "cinq heures moins vingt", "time24h": "04h40 / 16h40" },
+    { "spoken": "six heures juste / pile", "time24h": "06h00 / 18h00" },
+    { "spoken": "sept heures dix", "time24h": "07h10 / 19h10" },
+    { "spoken": "huit heures vingt-cinq", "time24h": "08h25 / 20h25" },
+    { "spoken": "neuf heures moins dix", "time24h": "08h50 / 20h50" },
+    { "spoken": "dix heures et quart", "time24h": "10h15 / 22h15" },
+    { "spoken": "onze heures moins le quart", "time24h": "10h45 / 22h45" },
+    { "spoken": "midi / minuit", "time24h": "12h00 / 00h00" }
+  ],
+  "worked24hExamples": [
+    { "time24h": "22h45", "spoken": "vingt-trois heures moins le quart (or dix heures quarante-cinq du soir)" },
+    { "time24h": "14h50", "spoken": "quinze heures moins dix" },
+    { "time24h": "17h50", "spoken": "dix-sept heures cinquante" },
+    { "time24h": "12h15", "spoken": "midi et quart" },
+    { "time24h": "12h45", "spoken": "treize heures moins le quart" },
+    { "time24h": "06h40", "spoken": "sept heures moins vingt" }
+  ],
+  "practiceQuestions": [
+    { "prompt": "Il est midi et quart.", "answer": "12h15" },
+    { "prompt": "Il est sept heures moins vingt.", "answer": "6h40" },
+    { "prompt": "Il est vingt heures quarante-cinq.", "answer": "20h45" },
+    { "prompt": "Il est treize heures moins le quart.", "answer": "12h45" },
+    { "prompt": "Il est trois heures et demie de l'après-midi.", "answer": "15h30" }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "ppe": [
+    { "french": "un casque de sécurité", "english": "safety helmet", "function": "protège la tête contre les chutes d'objets" },
+    { "french": "des lunettes de sécurité / de protection", "english": "safety goggles", "function": "protègent les yeux contre la poussière et les rayonnements" },
+    { "french": "des gants de sécurité", "english": "safety gloves", "function": "protègent les mains et les doigts contre les coupures, la chaleur" },
+    { "french": "des bottes / chaussures de sécurité", "english": "safety boots", "function": "protègent les pieds contre les objets pointus/lourds" },
+    { "french": "un bouchon d'oreille", "english": "earplug", "function": "protège l'oreille contre le bruit" },
+    { "french": "un gilet de signalisation / de haut visibilité", "english": "hi-vis vest", "function": "permet de bien voir le travailleur" },
+    { "french": "un masque de protection", "english": "protective mask", "function": "permet de respirer proprement / protège contre la poussière" },
+    { "french": "une ceinture de sécurité", "english": "safety harness/belt", "function": "protège contre les chutes en hauteur" }
+  ],
+  "tools": [
+    { "french": "un tournevis", "english": "screwdriver", "function": "sert à fixer ou retirer les vis" },
+    { "french": "un marteau", "english": "hammer", "function": "sert à enfoncer un clou" },
+    { "french": "une clé à molette", "english": "adjustable wrench", "function": "sert à serrer et desserrer les boulons et les écrous" },
+    { "french": "une perceuse", "english": "drill", "function": "sert à percer des trous dans le métal, le bois ou le béton" },
+    { "french": "une scie circulaire", "english": "circular saw", "function": "sert à couper le bois" },
+    { "french": "une pince", "english": "pliers", "function": "sert à saisir/mesurer avec précision" },
+    { "french": "un excavateur / une excavatrice", "english": "excavator", "function": "sert à creuser le sol" },
+    { "french": "le convoyeur", "english": "conveyor", "function": "aide à transporter des fardeaux d'une place à une autre" },
+    { "french": "le concasseur", "english": "crusher", "function": "écrase/broie les roches" },
+    { "french": "le tamis", "english": "sieve", "function": "sert à filtrer/tamiser les matériaux" },
+    { "french": "un stylo", "english": "pen", "function": "sert à écrire" },
+    { "french": "le voltmètre", "english": "voltmeter", "function": "sert à mesurer les tensions dans un circuit" },
+    { "french": "une torche", "english": "torch/flashlight", "function": "sert à s'éclairer" },
+    { "french": "un burin", "english": "chisel", "function": "sert à tailler le métal ou le bois" },
+    { "french": "une meuleuse", "english": "grinder", "function": "sert à poncer/affûter le métal" }
+  ],
+  "questionFrame": {
+    "french": "À quoi sert [un/une + outil] ? — Il/Elle sert à + [infinitive].",
+    "english": "What is [the tool] used for? — It is used to + [verb]."
+  },
+  "riddleFrame": {
+    "note": "Past papers often phrase tool questions as first-person riddles.",
+    "example": ["Je sers à serrer et à desserrer les boulons et les écrous. Je suis ...", "une clé à molette"]
+  }
+}
