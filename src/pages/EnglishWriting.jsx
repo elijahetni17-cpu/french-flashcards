@@ -1,37 +1,10 @@
 import { useMemo, useState } from "react";
 import phrases from "../data/english-writing.json";
-
-const normalize = (value) => value.toLowerCase().trim().replace(/[’']/g, "'").replace(/[.!?]+$/g, "").replace(/\s+/g, " ");
-
-export default function EnglishWriting() {
-  const session = useMemo(() => [...phrases].sort(() => Math.random() - 0.5).slice(0, 12), []);
-  const [index, setIndex] = useState(0), [answer, setAnswer] = useState(""), [checked, setChecked] = useState(false), [correct, setCorrect] = useState(false), [score, setScore] = useState(0), [finished, setFinished] = useState(false);
-  const current = session[index];
-
-  const check = () => {
-    if (!answer.trim() || checked) return;
-    const ok = [current.answer, ...(current.alternatives || [])].some(a => normalize(a) === normalize(answer));
-    setCorrect(ok); setChecked(true); if (ok) setScore(s => s + 1);
-  };
-
-  const next = () => {
-    if (index + 1 >= session.length) {
-      const saved = JSON.parse(localStorage.getItem("english_writing_runs") || "[]");
-      localStorage.setItem("english_writing_runs", JSON.stringify([{ score: score, total: session.length, at: Date.now() }, ...saved].slice(0, 20)));
-      setFinished(true); return;
-    }
-    setIndex(i => i + 1); setAnswer(""); setChecked(false); setCorrect(false);
-  };
-
-  if (finished) return <div className="max-w-lg mx-auto space-y-5 text-center"><div className="glass rounded-2xl p-7"><p className="text-xs text-white/40 uppercase tracking-wider">Writing practice complete</p><h1 className="font-display text-3xl font-bold mt-2">{score}/{session.length}</h1><p className="text-white/55 mt-2">Review the phrases you missed and try again later.</p></div><button onClick={() => location.reload()} className="w-full py-3 rounded-xl bg-white/10 font-medium">Practice again</button></div>;
-
-  return <div className="max-w-xl mx-auto space-y-5">
-    <div className="flex items-end justify-between"><div><p className="text-xs text-white/40 uppercase tracking-wider">Write it in English</p><h1 className="font-display text-2xl font-bold">Everyday French</h1></div><span className="text-sm font-mono text-white/45">{index + 1}/{session.length}</span></div>
-    <div className="h-1 bg-white/10 rounded-full"><div className="h-1 bg-amber-400 rounded-full" style={{ width: `${((index + 1) / session.length) * 100}%` }} /></div>
-    <div className="glass rounded-2xl p-6 sm:p-8"><p className="text-xs text-white/40 mb-3">Translate this sentence:</p><h2 className="font-display text-2xl font-semibold leading-snug">{current.fr}</h2>
-      <textarea autoFocus value={answer} onChange={e => setAnswer(e.target.value)} onKeyDown={e => { if ((e.ctrlKey || e.metaKey) && e.key === "Enter") check(); }} disabled={checked} placeholder="Type your English answer..." className="mt-6 w-full min-h-28 resize-none bg-white/5 border border-white/10 rounded-xl p-4 outline-none focus:border-white/25" />
-      {!checked ? <button onClick={check} disabled={!answer.trim()} className="mt-3 w-full py-3 rounded-xl bg-amber-400 text-black font-bold disabled:opacity-40">Check answer</button> : <div className="mt-4 space-y-3"><div className={`rounded-xl p-4 border ${correct ? "bg-emerald-500/10 border-emerald-400/20" : "bg-rose-500/10 border-rose-400/20"}`}><p className={correct ? "text-emerald-300 font-medium" : "text-rose-300 font-medium"}>{correct ? "Correct" : "Not quite"}</p>{!correct && <p className="mt-2 text-sm text-white/70">Answer: <strong className="text-white">{current.answer}</strong></p>}</div><button onClick={next} className="w-full py-3 rounded-xl bg-white/10 font-medium">{index + 1 === session.length ? "See results" : "Next →"}</button></div>}
-      <p className="text-center text-[11px] text-white/30 mt-4">Tip: Ctrl/Cmd + Enter checks your answer.</p>
-    </div>
-  </div>;
+const normalize=value=>value.toLowerCase().trim().replace(/[’']/g,"'").replace(/[.!?]+$/g,"").replace(/\s+/g," ");
+export default function EnglishWriting(){
+ const session=useMemo(()=>[...phrases].sort(()=>Math.random()-.5).slice(0,12),[]);const [index,setIndex]=useState(0),[answer,setAnswer]=useState(""),[checked,setChecked]=useState(false),[correct,setCorrect]=useState(false),[score,setScore]=useState(0),[finished,setFinished]=useState(false);const current=session[index];
+ const check=()=>{if(!answer.trim()||checked)return;const ok=[current.answer,...(current.alternatives||[])].some(a=>normalize(a)===normalize(answer));setCorrect(ok);setChecked(true);if(ok)setScore(s=>s+1);};
+ const next=()=>{if(index+1>=session.length){const finalScore=score+(correct?0:0);const saved=JSON.parse(localStorage.getItem("english_writing_runs")||"[]");localStorage.setItem("english_writing_runs",JSON.stringify([{score:finalScore,total:session.length,at:Date.now()},...saved].slice(0,20)));setFinished(true);return;}setIndex(i=>i+1);setAnswer("");setChecked(false);setCorrect(false);};
+ if(finished)return <div className="max-w-lg mx-auto space-y-5 text-center"><div className="glass rounded-2xl p-7"><p className="text-xs text-white/40 uppercase tracking-wider">Writing practice complete</p><h1 className="font-display text-3xl font-bold mt-2">{score}/{session.length}</h1><p className="text-white/55 mt-2">Review the phrases you missed and try again later.</p></div><button onClick={()=>location.reload()} className="w-full py-3 rounded-xl bg-white/10 font-medium">Practice again</button></div>;
+ return <div className="max-w-xl mx-auto space-y-5"><div className="flex items-end justify-between"><div><p className="text-xs text-white/40 uppercase tracking-wider">Write it in English</p><h1 className="font-display text-2xl font-bold">Everyday French</h1></div><span className="text-sm font-mono text-white/45">{index+1}/{session.length}</span></div><div className="h-1 bg-white/10 rounded-full"><div className="h-1 bg-amber-400 rounded-full" style={{width:`${((index+1)/session.length)*100}%`}}/></div><div className="glass rounded-2xl p-6 sm:p-8"><p className="text-xs text-white/40 mb-3">Translate this sentence:</p><h2 className="font-display text-2xl font-semibold leading-snug">{current.fr}</h2><textarea autoFocus value={answer} onChange={e=>setAnswer(e.target.value)} onKeyDown={e=>{if((e.ctrlKey||e.metaKey)&&e.key==="Enter")check();}} disabled={checked} placeholder="Type your English answer..." className="mt-6 w-full min-h-28 resize-none bg-white/5 border border-white/10 rounded-xl p-4 outline-none focus:border-white/25"/>{!checked?<button onClick={check} disabled={!answer.trim()} className="mt-3 w-full py-3 rounded-xl bg-amber-400 text-black font-bold disabled:opacity-40">Check answer</button>:<div className="mt-4 space-y-3"><div className={`rounded-xl p-4 border ${correct?"bg-emerald-500/10 border-emerald-400/20":"bg-rose-500/10 border-rose-400/20"}`}><p className={correct?"text-emerald-300 font-medium":"text-rose-300 font-medium"}>{correct?"Correct":"Not quite"}</p>{!correct&&<p className="mt-2 text-sm text-white/70">Answer: <strong className="text-white">{current.answer}</strong></p>}</div><button onClick={next} className="w-full py-3 rounded-xl bg-white/10 font-medium">{index+1===session.length?"See results":"Next →"}</button></div>}<p className="text-center text-[11px] text-white/30 mt-4">Tip: Ctrl/Cmd + Enter checks your answer.</p></div></div>;
 }
