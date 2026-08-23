@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useParams, useNavigate, Link } from "react-router-dom";
+import { useParams, useNavigate, useSearchParams, Link } from "react-router-dom";
 import topics from "../data/topics.json";
 import quizBank from "../data/quiz-bank.json";
 import { recordQuizDuelRun, getQuizDuelStats } from "../lib/storage.js";
@@ -10,20 +10,50 @@ function shuffle(arr) {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
-function buildSession(topicId) {
-  const pool = topicId ? quizBank.filter((q) => q.topicId === topicId) : quizBank;
-  const picked = shuffle(pool).slice(0, Math.min(SESSION_SIZE, pool.length));
+// Compact id encoding for short links: "q007" -> "7", joined with "-"
+function idsToParam(ids) {
+  return ids.map((id) => parseInt(id.replace("q", ""), 10)).join("-");
+}
+function paramToIds(param) {
+  return param
+    .split("-")
+    .map((n) => `q${String(parseInt(n, 10)).padStart(3, "0")}`);
+}
+
+function buildSession(topicId, explicitIds) {
+  let picked;
+  if (explicitIds && explicitIds.length > 0) {
+    picked = explicitIds.map((id) => quizBank.find((q) => q.id === id)).filter(Boolean);
+  } else {
+    const pool = topicId ? quizBank.filter((q) => q.topicId === topicId) : quizBank;
+    picked = shuffle(pool).slice(0, Math.min(SESSION_SIZE, pool.length));
+  }
   return picked.map((q) => {
     const optionsWithIndex = q.options.map((opt, i) => ({ text: opt, wasCorrect: i === q.correctIndex }));
-    const shuffled = shuffle(optionsWithIndex);
-    return { ...q, shuffledOptions: shuffled };
+    const shuffledOptions = shuffle(optionsWithIndex);
+    return { ...q, shuffledOptions };
   });
 }
 
 export default function QuizDuel() {
   const { topicId } = useParams();
   const navigate = useNavigate();
+  const [searchParams] = useSearchParams();
   const topic = topics.find((t) => t.id === topicId);
+
+  const challengeIdsParam = searchParams.get("c");
+  const challengeScoreParam = searchParams.get("sc");
+  const challengeTimeParam = searchParams.get("tm");
+  const challengeNameParam = searchParams.get("nm");
+
+  const challengeIds = useMemo(
+    () => (challengeIdsParam ? paramToIds(challengeIdsParam) : null),
+    [challengeIdsParam]
+  );
+  const isChallenge = !!(challengeIds && challengeIds.length > 0);
+  const challengeScore = challengeScoreParam !== null ? parseInt(challengeScoreParam, 10) : null;
+  const challengeTime = challengeTimeParam !== null ? parseInt(challengeTimeParam, 10) : null;
+  const challengeName = challengeNameParam || "a friend";
 
   const [phase, setPhase] = useState("intro"); // intro | playing | done
   const [session, setSession] = useState([]);
@@ -35,8 +65,9 @@ export default function QuizDuel() {
   const [startTime, setStartTime] = useState(null);
   const [elapsed, setElapsed] = useState(0);
   const [priorStats, setPriorStats] = useState(null);
-  const [finalStats, setFinalStats] = useState(null);
   const [reviewLog, setReviewLog] = useState([]);
+  const [friendName, setFriendName] = useState("");
+  const [linkCopied, setLinkCopied] = useState(false);
   const timerRef = useRef(null);
 
   useEffect(() => {
@@ -48,7 +79,7 @@ export default function QuizDuel() {
     setScore(0);
     setStreak(0);
     setBestStreak(0);
-  }, [topicId]);
+  }, [topicId, challengeIdsParam]);
 
   useEffect(() => {
     if (phase === "playing") {
@@ -62,7 +93,7 @@ export default function QuizDuel() {
   }, [phase, startTime]);
 
   function startSession() {
-    const s = buildSession(topicId);
+    const s = buildSession(topicId, challengeIds);
     if (s.length === 0) return;
     setSession(s);
     setQIndex(0);
@@ -73,6 +104,7 @@ export default function QuizDuel() {
     setStartTime(Date.now());
     setElapsed(0);
     setReviewLog([]);
+    setLinkCopied(false);
     setPhase("playing");
   }
 
@@ -112,15 +144,36 @@ export default function QuizDuel() {
 
   function finishSession() {
     const timeSec = Math.floor((Date.now() - startTime) / 1000);
-    const updated = recordQuizDuelRun({
+    recordQuizDuelRun({
       topicId: topicId || "all",
       score,
       total: session.length,
       timeSec,
       streak: bestStreak
     });
-    setFinalStats(updated);
     setPhase("done");
+  }
+
+  function buildChallengeLink() {
+    const ids = idsToParam(session.map((q) => q.id));
+    const base = topicId ? `/duel/${topicId}` : "/duel";
+    const params = new URLSearchParams();
+    params.set("c", ids);
+    params.set("sc", String(score));
+    params.set("tm", String(elapsed));
+    if (friendName.trim()) params.set("nm", friendName.trim().slice(0, 16));
+    return `${window.location.origin}${window.location.pathname}#${base}?${params.toString()}`;
+  }
+
+  async function copyChallengeLink() {
+    const link = buildChallengeLink();
+    try {
+      await navigator.clipboard.writeText(link);
+      setLinkCopied(true);
+      setTimeout(() => setLinkCopied(false), 2000);
+    } catch {
+      window.prompt("Copy this link and send it to your friend:", link);
+    }
   }
 
   const currentQ = session[qIndex];
@@ -134,45 +187,57 @@ export default function QuizDuel() {
             Quiz Duel {topic ? `— ${topic.title}` : "— All Topics"}
           </h1>
           <p className="text-white/50 text-sm mt-1">
-            You vs. your own best score. No opponent needed — just beat what you did last time.
+            {isChallenge
+              ? `${challengeName} sent you a challenge. Same questions, same rules — see who wins.`
+              : "You vs. your own best score. No opponent needed — just beat what you did last time."}
           </p>
         </div>
 
-        <div className="glass rounded-2xl p-5 space-y-3 text-sm">
-          <Row label="Questions in this run" value={Math.min(SESSION_SIZE, (topicId ? quizBank.filter(q=>q.topicId===topicId) : quizBank).length)} />
-          {priorStats && priorStats.history.length > 0 ? (
-            <>
-              <Row label="Your best score" value={priorStats.bestScore} />
-              <Row label="Your best accuracy" value={`${priorStats.bestAccuracy}%`} />
-              <Row label="Your best streak" value={priorStats.bestStreak} />
-              <Row label="Fastest 100% run" value={priorStats.fastestCleanRun ? `${priorStats.fastestCleanRun}s` : "—"} />
-            </>
-          ) : (
-            <p className="text-white/40 text-xs">No runs yet — set your first personal best.</p>
-          )}
-        </div>
+        {isChallenge ? (
+          <div className="glass rounded-2xl p-5 space-y-3 text-sm border border-amber-300/20">
+            <Row label="Questions" value={challengeIds.length} />
+            <Row label={`${challengeName}'s score`} value={`${challengeScore ?? "—"}/${challengeIds.length}`} />
+            {challengeTime !== null && <Row label={`${challengeName}'s time`} value={`${challengeTime}s`} />}
+          </div>
+        ) : (
+          <div className="glass rounded-2xl p-5 space-y-3 text-sm">
+            <Row label="Questions in this run" value={Math.min(SESSION_SIZE, (topicId ? quizBank.filter(q=>q.topicId===topicId) : quizBank).length)} />
+            {priorStats && priorStats.history.length > 0 ? (
+              <>
+                <Row label="Your best score" value={priorStats.bestScore} />
+                <Row label="Your best accuracy" value={`${priorStats.bestAccuracy}%`} />
+                <Row label="Your best streak" value={priorStats.bestStreak} />
+                <Row label="Fastest 100% run" value={priorStats.fastestCleanRun ? `${priorStats.fastestCleanRun}s` : "—"} />
+              </>
+            ) : (
+              <p className="text-white/40 text-xs">No runs yet — set your first personal best.</p>
+            )}
+          </div>
+        )}
 
         <button
           onClick={startSession}
           className="w-full py-3 rounded-full bg-amber-400 text-black font-bold hover:bg-amber-300 transition"
         >
-          Start Duel
+          {isChallenge ? "Accept Challenge" : "Start Duel"}
         </button>
 
-        <div className="text-center">
-          <select
-            value={topicId || ""}
-            onChange={(e) => navigate(e.target.value ? `/duel/${e.target.value}` : "/duel")}
-            className="glass rounded-full px-3 py-1.5 text-xs bg-transparent outline-none"
-          >
-            <option value="" className="bg-neutral-900">All topics (mixed)</option>
-            {topics.map((t) => (
-              <option key={t.id} value={t.id} className="bg-neutral-900">
-                {t.icon} {t.title}
-              </option>
-            ))}
-          </select>
-        </div>
+        {!isChallenge && (
+          <div className="text-center">
+            <select
+              value={topicId || ""}
+              onChange={(e) => navigate(e.target.value ? `/duel/${e.target.value}` : "/duel")}
+              className="glass rounded-full px-3 py-1.5 text-xs bg-transparent outline-none"
+            >
+              <option value="" className="bg-neutral-900">All topics (mixed)</option>
+              {topics.map((t) => (
+                <option key={t.id} value={t.id} className="bg-neutral-900">
+                  {t.icon} {t.title}
+                </option>
+              ))}
+            </select>
+          </div>
+        )}
       </div>
     );
   }
@@ -244,10 +309,35 @@ export default function QuizDuel() {
     const isNewBestScore = priorStats && score > priorStats.bestScore;
     const isNewBestStreak = priorStats && bestStreak > priorStats.bestStreak;
 
+    let challengeResult = null;
+    if (isChallenge && challengeScore !== null) {
+      if (score > challengeScore) challengeResult = "win";
+      else if (score < challengeScore) challengeResult = "lose";
+      else if (challengeTime !== null && timeSec < challengeTime) challengeResult = "win";
+      else if (challengeTime !== null && timeSec > challengeTime) challengeResult = "lose";
+      else challengeResult = "tie";
+    }
+
     return (
       <div className="max-w-lg mx-auto space-y-5 text-center">
         <div className="text-4xl">{accuracy === 100 ? "🏆" : accuracy >= 70 ? "💪" : "📚"}</div>
         <h1 className="font-display text-2xl font-bold">Run complete</h1>
+
+        {challengeResult && (
+          <div
+            className={`p-3 rounded-xl border text-sm font-semibold ${
+              challengeResult === "win"
+                ? "bg-emerald-500/15 border-emerald-400/30 text-emerald-200"
+                : challengeResult === "lose"
+                ? "bg-rose-500/15 border-rose-400/30 text-rose-200"
+                : "bg-white/10 border-white/20 text-white"
+            }`}
+          >
+            {challengeResult === "win" && `🏆 You beat ${challengeName}! (${score}/${total} vs ${challengeScore}/${total})`}
+            {challengeResult === "lose" && `😅 ${challengeName} wins this round (${challengeScore}/${total} vs your ${score}/${total}) — run it back!`}
+            {challengeResult === "tie" && `🤝 It's a tie with ${challengeName} — ${score}/${total} each!`}
+          </div>
+        )}
 
         <div className="glass rounded-2xl p-6 grid grid-cols-2 gap-4">
           <Stat label="Score" value={`${score}/${total}`} highlight={isNewBestScore} />
@@ -275,6 +365,29 @@ export default function QuizDuel() {
           >
             Topics
           </Link>
+        </div>
+
+        <div className="glass rounded-2xl p-5 text-left space-y-3">
+          <h2 className="font-display font-semibold text-sm text-center">
+            🔗 Challenge a friend to this exact run
+          </h2>
+          <input
+            type="text"
+            value={friendName}
+            onChange={(e) => setFriendName(e.target.value)}
+            placeholder="Your name (optional, shown to your friend)"
+            maxLength={16}
+            className="w-full px-3 py-2 rounded-lg bg-white/5 border border-white/10 text-sm outline-none focus:border-amber-300/40"
+          />
+          <button
+            onClick={copyChallengeLink}
+            className="w-full py-2.5 rounded-full bg-white/10 hover:bg-white/15 text-sm font-semibold transition"
+          >
+            {linkCopied ? "✓ Link copied!" : "Copy challenge link"}
+          </button>
+          <p className="text-[11px] text-white/40 text-center">
+            Sends the same {total} questions plus your score ({score}/{total} in {timeSec}s) so they can try to beat you.
+          </p>
         </div>
 
         <div className="text-left space-y-2 pt-2">

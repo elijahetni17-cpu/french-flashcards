@@ -111,45 +111,51 @@ export default function Flashcards() {
         </div>
       </div>
 
-      <div className="card-flip max-w-xl mx-auto" onClick={handleFlip}>
-        <div className={`card-flip-inner relative w-full h-72 sm:h-80 cursor-pointer ${flipped ? "flipped" : ""}`}>
-          <div className="card-face absolute inset-0 glass rounded-3xl p-6 sm:p-8 flex flex-col">
-            <div className="text-[10px] font-mono text-white/40 uppercase tracking-wide mb-4">
-              Front · tap to flip
-            </div>
-            <div className="flex-1 flex items-center justify-center text-center">
-              <p className="font-display text-xl sm:text-2xl font-semibold leading-snug">
-                {card.front}
-              </p>
-            </div>
-            {card.tags?.length > 0 && (
-              <div className="flex flex-wrap gap-1.5 justify-center">
-                {card.tags.map((tag) => (
-                  <span key={tag} className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-white/40 font-mono">
-                    {tag}
-                  </span>
-                ))}
+      <div className="max-w-xl mx-auto">
+        <div
+          onClick={handleFlip}
+          className="relative w-full h-72 sm:h-80 cursor-pointer"
+        >
+          {!flipped ? (
+            <div className="absolute inset-0 glass rounded-3xl p-6 sm:p-8 flex flex-col">
+              <div className="text-[10px] font-mono text-white/40 uppercase tracking-wide mb-4">
+                Front · tap to flip
               </div>
-            )}
-          </div>
-          <div className="card-face card-face-back absolute inset-0 glass rounded-3xl p-6 sm:p-8 flex flex-col bg-gradient-to-br from-violet-500/10 to-sky-500/10">
-            <div className="text-[10px] font-mono text-white/40 uppercase tracking-wide mb-3">
-              Back
-            </div>
-            <div className="flex-1 flex flex-col items-center justify-center text-center gap-3">
-              <p className="font-display text-lg sm:text-xl font-semibold leading-snug text-amber-200">
-                {card.back}
-              </p>
-              {card.example && (
-                <div className="text-sm text-white/70 border-t border-white/10 pt-3 w-full">
-                  <p className="italic">"{card.example}"</p>
-                  {card.exampleTranslation && (
-                    <p className="text-white/40 text-xs mt-1">{card.exampleTranslation}</p>
-                  )}
+              <div className="flex-1 flex items-center justify-center text-center">
+                <p className="font-display text-xl sm:text-2xl font-semibold leading-snug">
+                  {card.front}
+                </p>
+              </div>
+              {card.tags?.length > 0 && (
+                <div className="flex flex-wrap gap-1.5 justify-center">
+                  {card.tags.map((tag) => (
+                    <span key={tag} className="text-[10px] px-2 py-0.5 rounded-full bg-white/5 border border-white/10 text-white/40 font-mono">
+                      {tag}
+                    </span>
+                  ))}
                 </div>
               )}
             </div>
-          </div>
+          ) : (
+            <div className="absolute inset-0 glass rounded-3xl p-6 sm:p-8 flex flex-col bg-gradient-to-br from-violet-500/10 to-sky-500/10">
+              <div className="text-[10px] font-mono text-white/40 uppercase tracking-wide mb-3">
+                Back · tap to flip
+              </div>
+              <div className="flex-1 flex flex-col items-center justify-center text-center gap-3">
+                <p className="font-display text-lg sm:text-xl font-semibold leading-snug text-amber-200">
+                  {card.back}
+                </p>
+                {card.example && (
+                  <div className="text-sm text-white/70 border-t border-white/10 pt-3 w-full">
+                    <p className="italic">"{card.example}"</p>
+                    {card.exampleTranslation && (
+                      <p className="text-white/40 text-xs mt-1">{card.exampleTranslation}</p>
+                    )}
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       </div>
 
