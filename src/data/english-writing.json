@@ -1,0 +1,22 @@
+[
+  {"id":"ew01","fr":"J'ai faim.","answer":"I am hungry.","alternatives":["I'm hungry."]},
+  {"id":"ew02","fr":"J'ai soif.","answer":"I am thirsty.","alternatives":["I'm thirsty."]},
+  {"id":"ew03","fr":"J'ai mangé.","answer":"I have eaten.","alternatives":["I've eaten."]},
+  {"id":"ew04","fr":"Je vais en classe.","answer":"I'm going to class.","alternatives":["I am going to class."]},
+  {"id":"ew05","fr":"Je suis fatigué.","answer":"I am tired.","alternatives":["I'm tired."]},
+  {"id":"ew06","fr":"J'étudie le français.","answer":"I study French.","alternatives":[]},
+  {"id":"ew07","fr":"Je suis en retard.","answer":"I am late.","alternatives":["I'm late."]},
+  {"id":"ew08","fr":"Je n'ai pas compris.","answer":"I did not understand.","alternatives":["I didn't understand."]},
+  {"id":"ew09","fr":"Je voudrais de l'eau.","answer":"I would like some water.","alternatives":["I'd like some water."]},
+  {"id":"ew10","fr":"Nous avons un examen demain.","answer":"We have an exam tomorrow.","alternatives":[]},
+  {"id":"ew11","fr":"Je suis allé au marché.","answer":"I went to the market.","alternatives":[]},
+  {"id":"ew12","fr":"Je vais étudier ce soir.","answer":"I am going to study tonight.","alternatives":["I'm going to study tonight."]},
+  {"id":"ew13","fr":"Pouvez-vous répéter, s'il vous plaît ?","answer":"Can you repeat, please?","alternatives":["Could you repeat, please?"]},
+  {"id":"ew14","fr":"Où est la salle de classe ?","answer":"Where is the classroom?","alternatives":[]},
+  {"id":"ew15","fr":"Je ne sais pas.","answer":"I don't know.","alternatives":["I do not know."]},
+  {"id":"ew16","fr":"Je suis prêt.","answer":"I am ready.","alternatives":["I'm ready."]},
+  {"id":"ew17","fr":"Il est huit heures.","answer":"It is eight o'clock.","alternatives":["It's eight o'clock."]},
+  {"id":"ew18","fr":"J'habite à Tarkwa.","answer":"I live in Tarkwa.","alternatives":[]},
+  {"id":"ew19","fr":"Nous allons prendre le bus.","answer":"We are going to take the bus.","alternatives":["We're going to take the bus."]},
+  {"id":"ew20","fr":"Elle travaille à l'université.","answer":"She works at the university.","alternatives":[]}
+]
