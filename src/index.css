@@ -12,14 +12,10 @@
   --font-mono: "IBM Plex Mono", ui-monospace, monospace;
 }
 
-html, body, #root {
-  height: 100%;
-}
+html, body, #root { height: 100%; }
 
 body {
-  background: radial-gradient(1200px 600px at 10% -10%, rgba(124, 58, 237, 0.18), transparent 60%),
-              radial-gradient(1000px 500px at 100% 0%, rgba(56, 189, 248, 0.14), transparent 55%),
-              var(--color-ink);
+  background: var(--color-ink);
   color: #e7e9ee;
   font-family: var(--font-body);
   min-height: 100vh;
@@ -29,38 +25,20 @@ body {
 .font-mono { font-family: var(--font-mono); }
 
 .glass {
-  background: linear-gradient(180deg, rgba(255,255,255,0.05), rgba(255,255,255,0.02));
+  background: rgba(23, 26, 33, 0.96);
   border: 1px solid rgba(255,255,255,0.08);
-  backdrop-filter: blur(14px);
-  -webkit-backdrop-filter: blur(14px);
-}
-
-.glow-shard {
-  position: absolute;
-  border-radius: 9999px;
-  filter: blur(60px);
-  opacity: 0.35;
-  pointer-events: none;
 }
 
 ::-webkit-scrollbar { width: 8px; height: 8px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 4px; }
 
-.card-flip {
-  perspective: 1600px;
-}
-.card-flip-inner {
-  transform-style: preserve-3d;
-  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
-}
-.card-flip-inner.flipped {
-  transform: rotateY(180deg);
-}
-.card-face {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
-}
-.card-face-back {
-  transform: rotateY(180deg);
+.card-flip { perspective: 1600px; }
+.card-flip-inner { transform-style: preserve-3d; transition: transform 0.35s ease; }
+.card-flip-inner.flipped { transform: rotateY(180deg); }
+.card-face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.card-face-back { transform: rotateY(180deg); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }
